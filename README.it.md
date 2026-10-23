@@ -1,5 +1,10 @@
 # Open Codenames
 
+<p align="center">
+  <img src="docs/screenshots/home.png" width="320" alt="Schermata Home di Open Codenames">
+  <img src="docs/screenshots/game.png" width="320" alt="Schermata di gioco con il tabellone di 25 carte">
+</p>
+
 [English](README.md) | Italiano
 
 Gioco Android indipendente di parole e spionaggio per persone vicine. Due squadre, 25 parole, un suggeritore e almeno un decifratore per squadra. Italiano, inglese, spagnolo, tedesco e francese, con contenuti inclusi; nessun account, pubblicità, telemetria, AI o servizio cloud durante l’utilizzo. Codice originale MIT. Non affiliato a Czech Games Edition.

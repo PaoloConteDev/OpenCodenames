@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/icon.png" width="112" alt="Open Codenames logo">
+  <img src="docs/screenshots/home.png" width="320" alt="Open Codenames home screen">
+  <img src="docs/screenshots/game.png" width="320" alt="Open Codenames game screen with the 25-card board">
 </p>
 
 # Open Codenames
