@@ -1,8 +1,8 @@
 # Open Codenames
 
-**by Gleetch** · English | [Italiano](README.it.md)
+A spy game for people in the same room. Two teams, 25 words, secret identities and one clue at a time. Play together over local Wi-Fi, a phone hotspot or Bluetooth, or pass a single phone around.
 
-An independent, open-source Android word and spy game for people in the same room. Two teams, 25 words, secret identities and one clue at a time. Play together over local Wi-Fi, a phone hotspot or Bluetooth, or pass a single phone around.
+An independent open-source project by Gleetch.
 
 No accounts, ads, telemetry, cloud services or Internet connection are required to play. Interfaces, rules, fonts and word decks are bundled in the app. Original code and content are MIT-licensed. This project is not affiliated with Czech Games Edition.
 
