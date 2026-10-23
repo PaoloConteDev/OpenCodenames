@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="docs/screenshots/home.png" width="320" alt="Open Codenames home screen">
-  <img src="docs/screenshots/game.png" width="320" alt="Open Codenames game screen with the 25-card board">
-</p>
-
 # Open Codenames
 
 **by Gleetch** · English | [Italiano](README.it.md)
@@ -12,6 +7,11 @@ An independent, open-source Android word and spy game for people in the same roo
 No accounts, ads, telemetry, cloud services or Internet connection are required to play. Interfaces, rules, fonts and word decks are bundled in the app. Original code and content are MIT-licensed. This project is not affiliated with Czech Games Edition.
 
 **[Download version 1.0.0](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.0)** · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/PaoloConteDev/OpenCodenames/issues)
+
+<p align="center">
+  <img src="docs/screenshots/home.png" width="320" alt="Open Codenames home screen">
+  <img src="docs/screenshots/game.png" width="320" alt="Open Codenames game screen with the 25-card board">
+</p>
 
 ## Install and play
 

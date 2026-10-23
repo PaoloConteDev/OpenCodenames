@@ -1,10 +1,5 @@
 # Open Codenames
 
-<p align="center">
-  <img src="docs/screenshots/home.png" width="320" alt="Schermata Home di Open Codenames">
-  <img src="docs/screenshots/game.png" width="320" alt="Schermata di gioco con il tabellone di 25 carte">
-</p>
-
 [English](README.md) | Italiano
 
 Gioco Android indipendente di parole e spionaggio per persone vicine. Due squadre, 25 parole, un suggeritore e almeno un decifratore per squadra. Italiano, inglese, spagnolo, tedesco e francese, con contenuti inclusi; nessun account, pubblicità, telemetria, AI o servizio cloud durante l’utilizzo. Codice originale MIT. Non affiliato a Czech Games Edition.
@@ -12,6 +7,11 @@ Gioco Android indipendente di parole e spionaggio per persone vicine. Due squadr
 **Versione 1.0.0:** [scarica l’APK Android dalla release GitHub](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.0). L’APK pubblico usa una firma privata diversa dalle precedenti anteprime: per sostituire un’anteprima firmata debug è necessario disinstallarla, perdendo i relativi dati locali. Tutti i dispositivi multiplayer devono usare la stessa versione esatta.
 
 Il multiplayer Bluetooth e il ponte sperimentale dipendono dall’hardware; la verifica su quattro telefoni fisici è ancora da eseguire. I test automatici e l’emulatore non certificano la capacità radio. Consultare [verifiche e limiti](docs/VERIFICATION.md) e [collaudo reale](docs/DEVICE_TEST.md).
+
+<p align="center">
+  <img src="docs/screenshots/home.png" width="320" alt="Schermata Home di Open Codenames">
+  <img src="docs/screenshots/game.png" width="320" alt="Schermata di gioco con il tabellone di 25 carte">
+</p>
 
 ## Avvio rapido Android
 
