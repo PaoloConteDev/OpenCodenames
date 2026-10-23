@@ -180,6 +180,76 @@ describe('integrazione protocollo con I/O nativo sostituito solo nei test', () =
     expect(mock.nativeStarts).toBe(0);
     expect(mock.permissionRequests).toBe(0);
   });
+  it('feedback solo dopo una carta accettata, senza replay dopo pausa o recupero', async () => {
+    await runtime.host('Telefono', 'local', false, null, 'single');
+    await runtime.act({ type: 'start' });
+    let view = runtime.snapshot().view!;
+    await runtime.act({ type: 'handoff', turn: view.turn, phase: 'clue' });
+    view = runtime.snapshot().view!;
+    const index = view.board.findIndex((card) => card.color === view.active);
+    await runtime.act({ type: 'clue', word: 'Ineffabile', count: 2 });
+    await runtime.act({ type: 'handoff', turn: view.turn, phase: 'guess' });
+    expect(runtime.snapshot().reveal).toBeNull();
+    await runtime.act({ type: 'guess', index });
+    const reveal = runtime.snapshot().reveal;
+    expect(reveal).toMatchObject({ kind: 'correct', index, team: view.active });
+    await expect(runtime.act({ type: 'guess', index })).rejects.toThrow();
+    expect(runtime.snapshot().reveal?.id).toBe(reveal!.id);
+    mock.appState?.('background');
+    await drain();
+    expect(runtime.snapshot().reveal).toBeNull();
+    mock.appState?.('active');
+    await drain();
+    expect(runtime.snapshot().reveal).toBeNull();
+    await runtime.leave();
+    await runtime.host('Telefono', 'local', true);
+    expect(runtime.snapshot().reveal).toBeNull();
+    expect(runtime.snapshot().view!.board[index]!.revealed).toBe(true);
+  });
+  it('client emette feedback live una volta, ma non dagli snapshot di benvenuto o rientro', async () => {
+    await runtime.host('Host', 'lan');
+    await emit({ type: 'connected', peer: 'p' });
+    await message('p', { type: 'hello', nickname: 'Anna', roomCode: runtime.snapshot().roomCode });
+    await runtime.approve('p', true);
+    const welcome = last('p', 'welcome');
+    await runtime.leave();
+    await runtime.join({
+      mode: 'lan',
+      address: '192.168.1.2',
+      port: 42831,
+      roomCode: 'ABCDEF',
+      nickname: 'Anna',
+    });
+    const { board } = await import('../src/core/engine');
+    const before = {
+      ...welcome.view,
+      phase: 'guess',
+      board: board(() => 0).cards.map((card) => ({ word: card.word, revealed: false })),
+      version: welcome.view.version + 1,
+    };
+    await message('host', { ...welcome, view: before });
+    expect(runtime.snapshot().reveal).toBeNull();
+    const after = structuredClone(before);
+    after.version++;
+    Object.assign(after.board[0], { revealed: true, color: 'neutral', selectedBy: 'red' });
+    await message('host', { type: 'state', view: after });
+    expect(runtime.snapshot().reveal).toMatchObject({ kind: 'neutral', index: 0, team: 'red' });
+    const id = runtime.snapshot().reveal!.id;
+    await message('host', { type: 'state', view: after });
+    expect(runtime.snapshot().reveal!.id).toBe(id);
+    await emit({ type: 'disconnected', peer: 'host' });
+    expect(runtime.snapshot().reveal).toBeNull();
+    await runtime.resumeTransport();
+    const caughtUp = structuredClone(after);
+    caughtUp.version += 5;
+    Object.assign(caughtUp.board[1], { revealed: true, color: 'blue', selectedBy: 'blue' });
+    await message('host', { ...welcome, view: caughtUp });
+    expect(runtime.snapshot().reveal).toBeNull();
+    caughtUp.version++;
+    Object.assign(caughtUp.board[2], { revealed: true, color: 'red', selectedBy: 'red' });
+    await message('host', { type: 'state', view: caughtUp });
+    expect(runtime.snapshot().reveal).toMatchObject({ kind: 'correct', index: 2 });
+  });
   it('Single device gioca senza rete o permessi, cambia ruolo e squadra e chiude eventi di rete tardivi', async () => {
     await runtime.host('Telefono', 'bluetooth', false, null, 'single');
     expect(runtime.snapshot().mode).toBe('local');

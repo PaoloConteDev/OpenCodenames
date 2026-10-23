@@ -15,6 +15,7 @@ import { fingerprint, tunnelKeys } from '../protocol/secure-tunnel';
 import { Relay } from './relay';
 import { mergeDevice, NearbyDevice } from './discovery';
 import { isLanguage, languageFromLocale, type Language } from '../content/languages';
+import { revealedCard, type RevealEvent } from './reveal';
 
 function deviceLanguage(): Language {
   try {
@@ -41,6 +42,7 @@ export type ClientStore = {
 };
 export type Settings = { sound: boolean; haptic: boolean; language?: Language };
 export type RuntimeState = {
+  reveal: RevealEvent | null;
   view: View | null;
   ownId: string;
   isHost: boolean;
@@ -94,6 +96,7 @@ export async function bluetoothPermission(host: boolean) {
 
 export class Runtime {
   private state: RuntimeState = {
+    reveal: null,
     view: null,
     ownId: '',
     isHost: false,
@@ -188,7 +191,29 @@ export class Runtime {
     };
   };
   private update(patch: Partial<RuntimeState>) {
-    this.state = { ...this.state, ...patch };
+    const previous = this.state;
+    const next = { ...previous, ...patch };
+    const live = (state: RuntimeState) =>
+      this.foreground &&
+      !this.stopped &&
+      state.active &&
+      !!state.view &&
+      !state.view.paused &&
+      (state.isHost || (this.synchronized && state.status === 'Connesso all’host'));
+    if (patch.view !== undefined) {
+      const reveal = live(previous) && live(next) ? revealedCard(previous.view, next.view) : null;
+      if (reveal) next.reveal = reveal;
+      else if (
+        !live(previous) ||
+        !live(next) ||
+        previous.view?.id !== next.view?.id ||
+        previous.view?.round !== next.view?.round ||
+        next.view?.phase === 'lobby'
+      )
+        next.reveal = null;
+    }
+    if (!live(next)) next.reveal = null;
+    this.state = next;
     this.subscribers.forEach((fn) => fn());
   }
   private log(message: string) {

@@ -58,6 +58,25 @@ class OfflineLinkModule : Module() {
         timers.schedule({ tone.release() }, 150, TimeUnit.MILLISECONDS)
       }
     }
+    Function("revealFeedback") { kind: String, sound: Boolean ->
+      if (sound) {
+        val toneType = when (kind) {
+          "correct" -> android.media.ToneGenerator.TONE_PROP_ACK
+          "opponent" -> android.media.ToneGenerator.TONE_PROP_NACK
+          "assassin" -> android.media.ToneGenerator.TONE_SUP_ERROR
+          else -> android.media.ToneGenerator.TONE_PROP_BEEP
+        }
+        val duration = if (kind == "assassin") 320 else 170
+        // Feedback must never interrupt a committed game action on audio failure.
+        try {
+          val tone = android.media.ToneGenerator(android.media.AudioManager.STREAM_MUSIC, 45)
+          try {
+            tone.startTone(toneType, duration)
+            timers.schedule({ tone.release() }, (duration + 100).toLong(), TimeUnit.MILLISECONDS)
+          } catch (_: RuntimeException) { tone.release() }
+        } catch (_: RuntimeException) { }
+      }
+    }
     AsyncFunction("readStore") { key: String ->
       require(key in listOf("host", "client", "settings"))
       val file = AtomicFile(File(context.filesDir, "oc-$key.json"))

@@ -32,6 +32,7 @@ import { CameraView, useCameraPermissions } from 'expo-camera';
 import QRCode from 'react-native-qrcode-svg';
 import Link, { Mode } from './modules/offline-link';
 import { runtime } from './src/session/runtime';
+import type { RevealEvent } from './src/session/reveal';
 import { APP_VERSION } from './src/protocol/messages';
 import {
   Color,
@@ -284,6 +285,8 @@ function GameApp() {
   const [expandedLicense, setExpandedLicense] = useState('');
   const [reduceMotion, setReduceMotion] = useState(true);
   const [foreground, setForeground] = useState(AppState.currentState === 'active');
+  const [revealNotice, setRevealNotice] = useState<RevealEvent | null>(null);
+  const seenReveal = useRef<string | null>(null);
   const entrance = useRef(new Animated.Value(1)).current;
   const scroll = useRef<ScrollView>(null);
   const { width } = useWindowDimensions();
@@ -337,6 +340,31 @@ function GameApp() {
       if (runtime.snapshot().active) setPage('session');
     }).finally(() => setInitialized(true));
   }, []);
+  useEffect(() => {
+    const reveal = state.reveal;
+    if (!reveal || seenReveal.current === reveal.id) return;
+    seenReveal.current = reveal.id;
+    if (!initialized || !foreground || page !== 'session') return;
+    setRevealNotice(reveal);
+    if (state.settings.haptic) {
+      const patterns = {
+        correct: [0, 35],
+        opponent: [0, 65, 60, 65],
+        neutral: [0, 40, 80, 40],
+        assassin: [0, 140, 100, 180],
+      };
+      Vibration.vibrate(patterns[reveal.kind]);
+    }
+    Link.revealFeedback(reveal.kind, state.settings.sound);
+  }, [state.reveal, initialized, foreground, page, state.settings.haptic, state.settings.sound]);
+  useEffect(() => {
+    if (!foreground || page !== 'session' || !state.active) setRevealNotice(null);
+  }, [foreground, page, state.active, v?.id, v?.round]);
+  useEffect(() => {
+    if (!revealNotice) return;
+    const timer = setTimeout(() => setRevealNotice(null), 3600);
+    return () => clearTimeout(timer);
+  }, [revealNotice]);
   useEffect(() => {
     let mounted = true;
     void AccessibilityInfo.isReduceMotionEnabled().then((value) => {
@@ -527,7 +555,6 @@ function GameApp() {
               setLocalError(t('Il tabellone è cambiato. Rivedilo prima di scegliere.'));
               return;
             }
-            feedback();
             act({ type: 'guess', index });
           },
         },
@@ -541,6 +568,20 @@ function GameApp() {
         <Text style={s.copy}>{t('Apertura archivio…')}</Text>
       </View>
     );
+  const visibleReveal =
+    foreground &&
+    page === 'session' &&
+    state.active &&
+    revealNotice?.gameId === v?.id &&
+    revealNotice?.round === v?.round
+      ? revealNotice
+      : null;
+  const revealTitles = {
+    correct: t('Agente trovato!'),
+    opponent: t('Agente avversario'),
+    neutral: t('Carta neutrale'),
+    assassin: t('Assassino!'),
+  };
   return (
     <MotionContext.Provider value={!reduceMotion && foreground}>
       {state.active && (state.isHost || state.relayEnabled) && <HostAwake />}
@@ -1894,6 +1935,7 @@ function GameApp() {
                                   index={index}
                                   enabled={!!canGuess && !busy}
                                   small={cardWidth < 65}
+                                  highlighted={visibleReveal?.index === index}
                                   onPress={() => selectCard(index)}
                                 />
                               );
@@ -2332,12 +2374,49 @@ function GameApp() {
               </View>
             )}
           </Animated.ScrollView>
+          {visibleReveal && (
+            <View
+              pointerEvents="none"
+              accessible
+              accessibilityRole="alert"
+              accessibilityLiveRegion="polite"
+              accessibilityLabel={`${visibleReveal.word}. ${revealTitles[visibleReveal.kind]}. ${t('Scelta dalla squadra {0}', it[visibleReveal.team])}`}
+              style={[
+                s.revealToast,
+                {
+                  borderColor: visibleReveal.color === 'assassin' ? C.red : C[visibleReveal.color],
+                },
+              ]}
+            >
+              <Text style={[s.tag, { color: C.gold }]}>{revealTitles[visibleReveal.kind]}</Text>
+              <Text style={s.subtitle} numberOfLines={2} adjustsFontSizeToFit>
+                {visibleReveal.word.toLocaleUpperCase(language)}
+              </Text>
+              <Text style={s.tiny}>{t('Scelta dalla squadra {0}', it[visibleReveal.team])}</Text>
+            </View>
+          )}
         </KeyboardAvoidingView>
       </SafeAreaView>
     </MotionContext.Provider>
   );
 }
 const s = StyleSheet.create({
+  revealToast: {
+    position: 'absolute',
+    bottom: 16,
+    left: 20,
+    right: 20,
+    backgroundColor: '#22223A',
+    borderWidth: 2,
+    borderRadius: 18,
+    padding: 16,
+    gap: 5,
+    elevation: 10,
+    shadowColor: '#000',
+    shadowOpacity: 0.3,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 4 },
+  },
   languageOption: {
     flexDirection: 'row',
     alignItems: 'center',

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 — 2026-10-24
+
+- Accepted card reveals now highlight the chosen card and show a brief result notice, including the word and the team that chose it.
+- Added different local sound and vibration patterns for a found agent, an opponent's agent, a neutral card and the assassin. Each phone respects its own sound/haptic settings; reduced motion preserves static feedback.
+- Feedback follows committed game state on hosts and synchronized participants. It does not run for a canceled or rejected choice, duplicate snapshots, private-map visibility, initial synchronization or restored games.
+- Feedback notices are translated into all five supported languages and include an accessibility announcement.
+- Android version code 21, using the existing public release signing key. Update every multiplayer phone to the same exact version.
+
 ## 1.0.1 — 2026-10-23
 
 - Added a GitHub project button directly below the app version in Settings, with an icon and a description explaining that it opens the browser.

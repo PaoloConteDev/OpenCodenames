@@ -18,6 +18,7 @@ declare class OfflineLink extends NativeModule<{ link: (event: LinkEvent) => voi
   randomInt(bound: number): number;
   systemLanguage(): string;
   feedback(sound: boolean): void;
+  revealFeedback(kind: 'correct' | 'opponent' | 'neutral' | 'assassin', sound: boolean): void;
   readStore(key: string): Promise<string | null>;
   writeStore(key: string, value: string): Promise<void>;
   discoverable(): Promise<void>;

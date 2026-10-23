@@ -292,27 +292,30 @@ export function WordCard({
   index,
   enabled,
   small,
+  highlighted = false,
   onPress,
 }: {
   card: PublicCard;
   index: number;
   enabled: boolean;
   small: boolean;
+  highlighted?: boolean;
   onPress: () => void;
 }) {
   const { t, labels: it, language } = useLanguage();
   const motion = useContext(MotionContext);
   const scale = useRef(new Animated.Value(1)).current;
-  const wasRevealed = useRef(card.revealed);
   useEffect(() => {
-    if (motion && card.revealed && !wasRevealed.current) {
+    scale.stopAnimation();
+    scale.setValue(1);
+    if (motion && highlighted) {
       Animated.sequence([
-        Animated.timing(scale, { toValue: 0.9, duration: 100, useNativeDriver: true }),
+        Animated.timing(scale, { toValue: 1.07, duration: 150, useNativeDriver: true }),
         Animated.spring(scale, { toValue: 1, speed: 22, bounciness: 8, useNativeDriver: true }),
       ]).start();
     }
-    wasRevealed.current = card.revealed;
-  }, [card.revealed, motion, scale]);
+    return () => scale.stopAnimation();
+  }, [highlighted, motion, scale]);
   const color = card.color;
   const ink = card.revealed || color === 'assassin' ? palette.text : '#24243C';
   const dark = { red: '#63313B', blue: '#243F69', neutral: '#494554', assassin: '#101018' };
@@ -341,6 +344,16 @@ export function WordCard({
           },
         ]}
       >
+        {highlighted && (
+          <View
+            pointerEvents="none"
+            accessibilityElementsHidden
+            style={[
+              StyleSheet.absoluteFillObject,
+              { borderColor: palette.gold, borderWidth: 3, borderRadius: 12 },
+            ]}
+          />
+        )}
         <View style={styles.cardTop}>
           <Text style={[styles.cardIndex, { color: ink }]}>
             {String(index + 1).padStart(2, '0')}

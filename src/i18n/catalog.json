@@ -1333,6 +1333,16 @@
     "Votre équipement."
   ],
   "Versione": ["Version", "Versión", "Version", "Version"],
+  "Agente trovato!": ["Agent found!", "¡Agente encontrado!", "Agent gefunden!", "Agent trouvé !"],
+  "Agente avversario": ["Opponent’s agent", "Agente rival", "Gegnerischer Agent", "Agent adverse"],
+  "Carta neutrale": ["Neutral card", "Carta neutral", "Neutrale Karte", "Carte neutre"],
+  "Assassino!": ["Assassin!", "¡Asesino!", "Attentäter!", "Assassin !"],
+  "Scelta dalla squadra {0}": [
+    "Chosen by team {0}",
+    "Elegida por el equipo {0}",
+    "Von Team {0} gewählt",
+    "Choisie par l’équipe {0}"
+  ],
   "Progetto su GitHub": [
     "Project on GitHub",
     "Proyecto en GitHub",
