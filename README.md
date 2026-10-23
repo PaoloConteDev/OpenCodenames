@@ -2,7 +2,9 @@
 
 **Small clues. Big ideas.**
 
-An offline Android party game inspired by Codenames, featuring **5 languages**, **25-word boards**, and **2 teams**. Built with Expo, React Native, and TypeScript.
+An offline Android spy game inspired by Codenames, featuring **5 languages**, **25-word boards**, and **2 teams**. Built with Expo, React Native, and TypeScript.
+
+Secret identities, one clue at a time. Play together over local Wi-Fi, a phone hotspot or Bluetooth, or pass a single phone around.
 
 An independent open-source project by **Gleetch**.
 
