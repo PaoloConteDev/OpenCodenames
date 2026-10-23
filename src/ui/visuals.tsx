@@ -71,6 +71,7 @@ export type IconName =
   | 'spark'
   | 'players'
   | 'settings'
+  | 'github'
   | 'language';
 export function Icon({
   name,
@@ -109,6 +110,12 @@ export function Icon({
       )}
       {name === 'arrow' && <Path d="M4 12h15m-6-6 6 6-6 6" />}
       {name === 'back' && <Path d="m14 5-7 7 7 7" />}
+      {name === 'github' && (
+        <>
+          <Path d="M9 21v-3.3c-3.2-.5-5-2.2-5-5.2 0-1.5.5-2.8 1.5-3.8C5 7.3 5.3 5.8 5.7 5c1.6-.1 2.8.7 3.5 1.2a12 12 0 0 1 5.6 0c.7-.5 1.9-1.3 3.5-1.2.4.8.7 2.3.2 3.7 1 1 1.5 2.3 1.5 3.8 0 3-1.8 4.7-5 5.2V21" />
+          <Path d="M9 19c-3 .8-3.5-2-5-2" />
+        </>
+      )}
       {name === 'language' && (
         <>
           <Circle cx="12" cy="12" r="9" />

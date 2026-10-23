@@ -6,6 +6,7 @@ import {
   Animated,
   AppState,
   KeyboardAvoidingView,
+  Linking,
   Platform,
   Pressable,
   ScrollView,
@@ -2191,6 +2192,24 @@ function GameApp() {
                   {t('Versione ')}
                   {APP_VERSION}
                 </Copy>
+                <Button
+                  title={t('Progetto su GitHub')}
+                  subtitle={t('Aggiornamenti, codice sorgente e segnalazioni · apre il browser')}
+                  icon="github"
+                  secondary
+                  disabled={busy}
+                  onPress={() =>
+                    void run(async () => {
+                      try {
+                        await Linking.openURL('https://github.com/PaoloConteDev/OpenCodenames');
+                      } catch {
+                        throw new Error(
+                          t('Impossibile aprire GitHub. Riprova con un browser disponibile.'),
+                        );
+                      }
+                    })
+                  }
+                />
                 {(
                   [
                     {

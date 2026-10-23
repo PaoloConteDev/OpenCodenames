@@ -1333,6 +1333,24 @@
     "Votre équipement."
   ],
   "Versione": ["Version", "Versión", "Version", "Version"],
+  "Progetto su GitHub": [
+    "Project on GitHub",
+    "Proyecto en GitHub",
+    "Projekt auf GitHub",
+    "Projet sur GitHub"
+  ],
+  "Aggiornamenti, codice sorgente e segnalazioni · apre il browser": [
+    "Updates, source code and issues · opens your browser",
+    "Actualizaciones, código fuente e incidencias · abre el navegador",
+    "Updates, Quellcode und Fehlermeldungen · öffnet den Browser",
+    "Mises à jour, code source et signalements · ouvre le navigateur"
+  ],
+  "Impossibile aprire GitHub. Riprova con un browser disponibile.": [
+    "Unable to open GitHub. Try again with an available browser.",
+    "No se puede abrir GitHub. Vuelve a intentarlo con un navegador disponible.",
+    "GitHub konnte nicht geöffnet werden. Versuche es erneut mit einem verfügbaren Browser.",
+    "Impossible d’ouvrir GitHub. Réessayez avec un navigateur disponible."
+  ],
   "Feedback aptico": [
     "Haptic feedback",
     "Respuesta háptica",

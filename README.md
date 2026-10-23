@@ -1,12 +1,16 @@
 # Open Codenames
 
-**by Gleetch** · English | [Italiano](README.it.md)
+**Small clues. Big ideas.**
 
-An independent, open-source Android word and spy game for people in the same room. Two teams, 25 words, secret identities and one clue at a time. Play together over local Wi-Fi, a phone hotspot or Bluetooth, or pass a single phone around.
+An offline Android party game inspired by Codenames, featuring **5 languages**, **25-word boards**, and **2 teams**. Built with Expo, React Native, and TypeScript.
+
+An independent open-source project by **Gleetch**.
+
+English | [Italiano](README.it.md)
 
 No accounts, ads, telemetry, cloud services or Internet connection are required to play. Interfaces, rules, fonts and word decks are bundled in the app. Original code and content are MIT-licensed. This project is not affiliated with Czech Games Edition.
 
-**[Download version 1.0.0](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.0)** · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/PaoloConteDev/OpenCodenames/issues)
+**[Download version 1.0.1](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.1)** · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/PaoloConteDev/OpenCodenames/issues)
 
 <p align="center">
   <img src="docs/screenshots/home.png" width="320" alt="Open Codenames home screen">
@@ -15,7 +19,7 @@ No accounts, ads, telemetry, cloud services or Internet connection are required 
 
 ## Install and play
 
-1. Download `OpenCodenames-1.0.0.apk` from the release page on an Android phone running **Android 7.0 or later**.
+1. Download `OpenCodenames-1.0.1.apk` from the release page on an Android phone running **Android 7.0 or later**.
 2. Allow your browser or file manager to install this APK when Android asks. Open the installed app; no Expo account, Expo Go, Metro server or PC is needed.
 3. Tap **Play**, choose a channel and either host or join a room. For single-device play, go straight to game setup without entering a nickname.
 4. In multiplayer, the host approves joining players. Choose roles, mark everyone ready and start the mission.
@@ -23,6 +27,8 @@ No accounts, ads, telemetry, cloud services or Internet connection are required 
 All phones in a room must run the **same exact app version**, including patch releases. The app rejects incompatible versions, including on reconnect and through bridges. Check your installed version in Settings.
 
 The public 1.0.0 APK uses a private release signing key. Earlier local previews used a debug key and must be uninstalled before installing this APK; uninstalling deletes their saved rooms and settings. Future public updates will use the release key.
+
+Settings includes **Project on GitHub**, directly below the app version, for updates, source code and issue reports. It opens the project page in your browser; only browsing GitHub needs Internet.
 
 ## Channels and device limits
 

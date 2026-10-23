@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 — 2026-10-23
+
+- Added a GitHub project button directly below the app version in Settings, with an icon and a description explaining that it opens the browser.
+- Translated the button, description and browser-opening error into all five supported languages.
+- Added Home and game screenshots to both README files, with the device status bar cropped out.
+- Refreshed the English and Italian README introductions with a tagline, key features, technology stack and Gleetch credit.
+- Android version code 20, signed with the same private key as 1.0.0 for in-place updates. All multiplayer devices must use the same exact app version.
+
 ## 1.0.0 — 2026-10-23
 
 First public GitHub release of Open Codenames, by Gleetch.

@@ -1,12 +1,20 @@
 # Open Codenames
 
+**Piccoli indizi. Grandi idee.**
+
+Un party game Android offline ispirato a Codenames, con **5 lingue**, **tabelloni da 25 parole** e **2 squadre**. Sviluppato con Expo, React Native e TypeScript.
+
+Un progetto open source indipendente di **Gleetch**.
+
 [English](README.md) | Italiano
 
-Gioco Android indipendente di parole e spionaggio per persone vicine. Due squadre, 25 parole, un suggeritore e almeno un decifratore per squadra. Italiano, inglese, spagnolo, tedesco e francese, con contenuti inclusi; nessun account, pubblicità, telemetria, AI o servizio cloud durante l’utilizzo. Codice originale MIT. Non affiliato a Czech Games Edition.
+Nessun account, pubblicità, telemetria, servizio cloud o connessione Internet richiesti per giocare. Interfacce, regole, font e mazzi di parole sono inclusi nell’app. Codice e contenuti originali distribuiti sotto licenza MIT. Il progetto non è affiliato a Czech Games Edition.
 
-**Versione 1.0.0:** [scarica l’APK Android dalla release GitHub](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.0). L’APK pubblico usa una firma privata diversa dalle precedenti anteprime: per sostituire un’anteprima firmata debug è necessario disinstallarla, perdendo i relativi dati locali. Tutti i dispositivi multiplayer devono usare la stessa versione esatta.
+**Versione 1.0.1:** [scarica l’APK Android dalla release GitHub](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.0.1). L’APK pubblico usa una firma privata diversa dalle precedenti anteprime: per sostituire un’anteprima firmata debug è necessario disinstallarla, perdendo i relativi dati locali. Tutti i dispositivi multiplayer devono usare la stessa versione esatta.
 
 Il multiplayer Bluetooth e il ponte sperimentale dipendono dall’hardware; la verifica su quattro telefoni fisici è ancora da eseguire. I test automatici e l’emulatore non certificano la capacità radio. Consultare [verifiche e limiti](docs/VERIFICATION.md) e [collaudo reale](docs/DEVICE_TEST.md).
+
+Nelle Impostazioni, subito sotto la versione, il pulsante **Progetto su GitHub** apre nel browser aggiornamenti, sorgenti e segnalazioni. Solo la consultazione di GitHub richiede Internet.
 
 <p align="center">
   <img src="docs/screenshots/home.png" width="320" alt="Schermata Home di Open Codenames">
