@@ -1,0 +1,2466 @@
+{
+  "Apertura archivio…": [
+    "Opening archive…",
+    "Abriendo archivo…",
+    "Archiv wird geöffnet…",
+    "Ouverture des archives…"
+  ],
+  "Connesso all’host": [
+    "Connected to host",
+    "Conectado al anfitrión",
+    "Mit Host verbunden",
+    "Connecté à l’hôte"
+  ],
+  "Operazione non riuscita": [
+    "Operation failed",
+    "La operación ha fallado",
+    "Vorgang fehlgeschlagen",
+    "Échec de l’opération"
+  ],
+  "Salvare e tornare alla Home?": [
+    "Save and return home?",
+    "¿Guardar y volver al inicio?",
+    "Speichern und zur Startseite?",
+    "Enregistrer et revenir à l’accueil ?"
+  ],
+  "Lasciare la stanza?": [
+    "Leave the room?",
+    "¿Salir de la sala?",
+    "Raum verlassen?",
+    "Quitter la salle ?"
+  ],
+  "La partita rimane salvata su questo telefono. Potrete riprenderla dalla Home.": [
+    "The game stays saved on this phone. Resume it from the home screen.",
+    "La partida queda guardada en este teléfono. Podréis retomarla desde el inicio.",
+    "Das Spiel bleibt auf diesem Telefon gespeichert. Ihr könnt es auf der Startseite fortsetzen.",
+    "La partie reste enregistrée sur ce téléphone. Reprenez-la depuis l’accueil."
+  ],
+  "La sessione rimane salvata per il recupero. Se sei l’host, tutti attendono il tuo ritorno.": [
+    "The session is saved for recovery. If you are the host, everyone waits for your return.",
+    "La sesión queda guardada. Si eres el anfitrión, todos esperan tu regreso.",
+    "Die Sitzung wird gespeichert. Wenn du der Host bist, warten alle auf deine Rückkehr.",
+    "La session reste enregistrée. Si vous êtes l’hôte, tout le monde attend votre retour."
+  ],
+  "Scegli il canale": [
+    "Choose a connection",
+    "Elige la conexión",
+    "Verbindung wählen",
+    "Choisir la connexion"
+  ],
+  "Wi-Fi / hotspot": [
+    "Wi-Fi / hotspot",
+    "Wi-Fi / punto de acceso",
+    "WLAN / Hotspot",
+    "Wi-Fi / point d’accès"
+  ],
+  "Unico dispositivo": ["Single device", "Dispositivo único", "Einzelgerät", "Appareil unique"],
+  "Prepara la stanza": [
+    "Prepare the room",
+    "Prepara la sala",
+    "Raum vorbereiten",
+    "Préparer la salle"
+  ],
+  "Entra in partita": [
+    "Join a game",
+    "Entrar en una partida",
+    "Spiel beitreten",
+    "Rejoindre une partie"
+  ],
+  "Raggiungi la squadra": [
+    "Join your team",
+    "Únete al equipo",
+    "Zum Team finden",
+    "Rejoindre l’équipe"
+  ],
+  "Sala operativa": [
+    "Operations room",
+    "Sala de operaciones",
+    "Einsatzraum",
+    "Salle des opérations"
+  ],
+  "La missione": ["The mission", "La misión", "Die Mission", "La mission"],
+  "Registro missione": [
+    "Mission log",
+    "Registro de la misión",
+    "Einsatzprotokoll",
+    "Journal de mission"
+  ],
+  "Manuale operativo": [
+    "Field manual",
+    "Manual de operaciones",
+    "Einsatzhandbuch",
+    "Manuel de mission"
+  ],
+  "Test del collegamento": [
+    "Connection test",
+    "Prueba de conexión",
+    "Verbindungstest",
+    "Test de connexion"
+  ],
+  "Inquadra il QR": ["Scan the QR code", "Escanea el QR", "QR-Code scannen", "Scanner le QR code"],
+  "Licenze e attribuzioni": [
+    "Licences and credits",
+    "Licencias y créditos",
+    "Lizenzen und Hinweise",
+    "Licences et crédits"
+  ],
+  "Inserisci il tuo nickname": [
+    "Enter your nickname",
+    "Introduce tu apodo",
+    "Gib deinen Spitznamen ein",
+    "Saisissez votre pseudo"
+  ],
+  "Inserisci il codice stanza di 6 caratteri": [
+    "Enter the 6-character room code",
+    "Introduce el código de sala de 6 caracteres",
+    "Gib den sechsstelligen Raumcode ein",
+    "Saisissez le code de salle à 6 caractères"
+  ],
+  "Confermi “{0}”?": [
+    "Confirm “{0}”?",
+    "¿Confirmas «{0}»?",
+    "„{0}“ bestätigen?",
+    "Confirmer « {0} » ?"
+  ],
+  "Questa scelta scopre la carta per tutti.": [
+    "This reveals the card for everyone.",
+    "Esta acción revela la carta para todos.",
+    "Dadurch wird die Karte für alle aufgedeckt.",
+    "Cette action révèle la carte pour tout le monde."
+  ],
+  "Rifletti ancora": ["Think again", "Pensarlo otra vez", "Noch überlegen", "Réfléchir encore"],
+  "Scopri carta": ["Reveal card", "Revelar carta", "Karte aufdecken", "Révéler la carte"],
+  "Il tabellone è cambiato. Rivedilo prima di scegliere.": [
+    "The board has changed. Review it before choosing.",
+    "El tablero ha cambiado. Revísalo antes de elegir.",
+    "Das Spielfeld hat sich geändert. Sieh es dir vor der Auswahl an.",
+    "Le plateau a changé. Vérifiez-le avant de choisir."
+  ],
+  "{0} · turno {1}": [
+    "{0} · {1} team’s turn",
+    "{0} · turno del equipo {1}",
+    "{0} · Team {1} ist dran",
+    "{0} · tour de l’équipe {1}"
+  ],
+  "Tu: squadra {0} · {1}": [
+    "You: {0} team · {1}",
+    "Tú: equipo {0} · {1}",
+    "Du: Team {0} · {1}",
+    "Vous : équipe {0} · {1}"
+  ],
+  "La vostra prossima connessione.": [
+    "Your next connection.",
+    "Vuestra próxima conexión.",
+    "Eure nächste Verbindung.",
+    "Votre prochaine connexion."
+  ],
+  "Apri le preferenze dell’app": [
+    "Open app preferences",
+    "Abrir preferencias de la aplicación",
+    "App-Einstellungen öffnen",
+    "Ouvrir les préférences de l’application"
+  ],
+  "PICCOLI INDIZI. GRANDI INTUIZIONI.": [
+    "SMALL CLUES. BIG IDEAS.",
+    "PEQUEÑAS PISTAS. GRANDES IDEAS.",
+    "KLEINE HINWEISE. GROSSE IDEEN.",
+    "PETITS INDICES. GRANDES IDÉES."
+  ],
+  "Una parola.": ["One word.", "Una palabra.", "Ein Wort.", "Un mot."],
+  "Mille connessioni.": [
+    "Endless connections.",
+    "Mil conexiones.",
+    "Tausend Verbindungen.",
+    "Mille connexions."
+  ],
+  "Riunisci gli amici, trova i tuoi agenti.": [
+    "Gather your friends, find your agents.",
+    "Reúne a tus amigos, encuentra a tus agentes.",
+    "Versammelt eure Freunde, findet eure Agenten.",
+    "Réunissez vos amis, retrouvez vos agents."
+  ],
+  "E occhio all’assassino.": [
+    "And watch out for the assassin.",
+    "Y cuidado con el asesino.",
+    "Und nehmt euch vor dem Attentäter in Acht.",
+    "Et attention à l’assassin."
+  ],
+  "Senza account": ["No account", "Sin cuenta", "Ohne Konto", "Sans compte"],
+  "25 parole": ["25 words", "25 palabras", "25 Wörter", "25 mots"],
+  "2 squadre": ["2 teams", "2 equipos", "2 Teams", "2 équipes"],
+  "Si gioca insieme.": [
+    "Play together.",
+    "Se juega en equipo.",
+    "Gemeinsam spielen.",
+    "Jouez ensemble."
+  ],
+  "Vicini, anche senza Internet": [
+    "Side by side, even without Internet",
+    "Cerca, incluso sin Internet",
+    "Zusammen, auch ohne Internet",
+    "Ensemble, même sans Internet"
+  ],
+  "Wi-Fi, Bluetooth o un solo telefono": [
+    "Wi-Fi, Bluetooth or just one phone",
+    "Wi-Fi, Bluetooth o un solo teléfono",
+    "WLAN, Bluetooth oder nur ein Telefon",
+    "Wi-Fi, Bluetooth ou un seul téléphone"
+  ],
+  "RIPRENDI DA DOVE ERAVATE": [
+    "PICK UP WHERE YOU LEFT OFF",
+    "RETOMAD LA PARTIDA",
+    "SPIEL FORTSETZEN",
+    "REPRENEZ VOTRE PARTIE"
+  ],
+  "Riprendi la tua partita": [
+    "Resume your game",
+    "Retomar tu partida",
+    "Dein Spiel fortsetzen",
+    "Reprendre votre partie"
+  ],
+  "Rientra nella tua sessione": [
+    "Rejoin your session",
+    "Volver a tu sesión",
+    "Sitzung erneut beitreten",
+    "Rejoindre votre session"
+  ],
+  "Indipendente, open source, senza account.": [
+    "Independent, open source, no account.",
+    "Independiente, de código abierto y sin cuenta.",
+    "Unabhängig, Open Source, ohne Konto.",
+    "Indépendant, open source, sans compte."
+  ],
+  "Non affiliato a Czech Games Edition.": [
+    "Not affiliated with Czech Games Edition.",
+    "Sin afiliación con Czech Games Edition.",
+    "Nicht mit Czech Games Edition verbunden.",
+    "Sans affiliation avec Czech Games Edition."
+  ],
+  "01 / CANALE DI GIOCO": ["01 / CONNECTION", "01 / CONEXIÓN", "01 / VERBINDUNG", "01 / CONNEXION"],
+  "Come volete giocare?": [
+    "How would you like to play?",
+    "¿Cómo queréis jugar?",
+    "Wie möchtet ihr spielen?",
+    "Comment voulez-vous jouer ?"
+  ],
+  "Scegli il canale. Con più telefoni potrai poi ospitare una stanza o entrare in quella degli amici.": [
+    "Choose a connection. With multiple phones, you can then host a room or join your friends.",
+    "Elige la conexión. Con varios teléfonos, después podrás crear una sala o entrar en la de tus amigos.",
+    "Wählt eine Verbindung. Mit mehreren Telefonen könnt ihr danach einen Raum erstellen oder Freunden beitreten.",
+    "Choisissez la connexion. Avec plusieurs téléphones, vous pourrez ensuite créer une salle ou rejoindre vos amis."
+  ],
+  "Dispositivi 2–{0}\nStessa rete, anche senza Internet": [
+    "Devices 2–{0}\nSame network, even without Internet",
+    "Dispositivos 2–{0}\nMisma red, incluso sin Internet",
+    "Geräte 2–{0}\nGleiches Netzwerk, auch ohne Internet",
+    "Appareils 2–{0}\nMême réseau, même sans Internet"
+  ],
+  "Dispositivi 2–{0}\nTelefoni vicini, senza Wi-Fi o Internet": [
+    "Devices 2–{0}\nNearby phones, no Wi-Fi or Internet needed",
+    "Dispositivos 2–{0}\nTeléfonos cercanos, sin Wi-Fi ni Internet",
+    "Geräte 2–{0}\nTelefone in der Nähe, ohne WLAN oder Internet",
+    "Appareils 2–{0}\nTéléphones à proximité, sans Wi-Fi ni Internet"
+  ],
+  "1 dispositivo\nPassa il telefono tra ruoli e squadre": [
+    "1 device\nPass the phone between roles and teams",
+    "1 dispositivo\nPasad el teléfono entre roles y equipos",
+    "1 Gerät\nTelefon zwischen Rollen und Teams weitergeben",
+    "1 appareil\nPassez le téléphone entre rôles et équipes"
+  ],
+  "WI-FI / HOTSPOT": [
+    "WI-FI / HOTSPOT",
+    "WI-FI / PUNTO DE ACCESO",
+    "WLAN / HOTSPOT",
+    "WI-FI / POINT D’ACCÈS"
+  ],
+  "Ospita o entra.": [
+    "Host or join.",
+    "Crear sala o entrar.",
+    "Erstellen oder beitreten.",
+    "Créer ou rejoindre."
+  ],
+  "Tenete il Bluetooth acceso. Chi ospita rende visibile la stanza e approva gli ingressi.": [
+    "Keep Bluetooth on. The host makes the room discoverable and approves requests.",
+    "Mantened el Bluetooth activado. El anfitrión hace visible la sala y aprueba las solicitudes.",
+    "Lasst Bluetooth eingeschaltet. Der Host macht den Raum sichtbar und bestätigt Beitritte.",
+    "Gardez le Bluetooth activé. L’hôte rend la salle visible et approuve les demandes."
+  ],
+  "Collegate i telefoni alla stessa rete Wi-Fi o all’hotspot. Internet non serve.": [
+    "Connect the phones to the same Wi-Fi network or hotspot. No Internet needed.",
+    "Conectad los teléfonos a la misma red Wi-Fi o punto de acceso. No hace falta Internet.",
+    "Verbindet die Telefone mit demselben WLAN oder Hotspot. Internet ist nicht nötig.",
+    "Connectez les téléphones au même Wi-Fi ou point d’accès. Internet n’est pas nécessaire."
+  ],
+  "Ospita partita": ["Host a game", "Crear una partida", "Spiel erstellen", "Créer une partie"],
+  "Crea la stanza per il tuo gruppo": [
+    "Create a room for your group",
+    "Crea una sala para tu grupo",
+    "Erstelle einen Raum für deine Gruppe",
+    "Créez une salle pour votre groupe"
+  ],
+  "Raggiungi una stanza già aperta": [
+    "Join an existing room",
+    "Únete a una sala abierta",
+    "Einem offenen Raum beitreten",
+    "Rejoignez une salle ouverte"
+  ],
+  "UNICO DISPOSITIVO": ["SINGLE DEVICE", "DISPOSITIVO ÚNICO", "EINZELGERÄT", "APPAREIL UNIQUE"],
+  "Un telefono, due squadre.": [
+    "One phone, two teams.",
+    "Un teléfono, dos equipos.",
+    "Ein Telefon, zwei Teams.",
+    "Un téléphone, deux équipes."
+  ],
+  "La squadra parte da qui.": [
+    "Your team starts here.",
+    "El equipo empieza aquí.",
+    "Hier beginnt euer Team.",
+    "L’équipe commence ici."
+  ],
+  "Avvicina i telefoni.": [
+    "Bring the phones closer.",
+    "Acercad los teléfonos.",
+    "Telefone näher zusammenbringen.",
+    "Rapprochez les téléphones."
+  ],
+  "NOME DEL DISPOSITIVO": [
+    "DEVICE NAME",
+    "NOMBRE DEL DISPOSITIVO",
+    "GERÄTENAME",
+    "NOM DE L’APPAREIL"
+  ],
+  "IL TUO NICKNAME": ["YOUR NICKNAME", "TU APODO", "DEIN SPITZNAME", "VOTRE PSEUDO"],
+  "Come ti riconosce la squadra?": [
+    "How will your team recognise you?",
+    "¿Cómo te reconoce tu equipo?",
+    "Wie erkennt dich dein Team?",
+    "Comment votre équipe vous reconnaît-elle ?"
+  ],
+  "GESTIONE PARTITA": [
+    "GAME MANAGEMENT",
+    "GESTIÓN DE PARTIDA",
+    "SPIELVERWALTUNG",
+    "GESTION DE PARTIE"
+  ],
+  "Da 2 dispositivi: uno per entrambi i suggeritori, uno o più per i decifratori. Passate i telefoni alla squadra di turno; la mappa resta sul dispositivo dei suggeritori.": [
+    "From 2 devices: one for both spymasters, one or more for the decoders. Pass the phones to the active team; the map stays on the spymasters’ device.",
+    "Desde 2 dispositivos: uno para ambos jefes de espías y uno o más para los descifradores. Pasad los teléfonos al equipo de turno; el mapa queda en el dispositivo de los jefes.",
+    "Ab 2 Geräten: eines für beide Geheimdienstchefs, eines oder mehr für die Entschlüssler. Gebt die Telefone dem aktiven Team; die Karte bleibt auf dem Gerät der Geheimdienstchefs.",
+    "Dès 2 appareils : un pour les deux maîtres-espions, un ou plusieurs pour les décodeurs. Passez les téléphones à l’équipe active ; la carte reste sur l’appareil des maîtres-espions."
+  ],
+  "Da 4 dispositivi: ognuno ha la propria squadra e il proprio ruolo.": [
+    "From 4 devices: everyone has their own team and role.",
+    "Desde 4 dispositivos: cada persona tiene su equipo y su rol.",
+    "Ab 4 Geräten: Alle haben ein festes Team und eine feste Rolle.",
+    "Dès 4 appareils : chaque personne a son équipe et son rôle."
+  ],
+  "Tempo per turno": ["Time per turn", "Tiempo por turno", "Zeit pro Zug", "Temps par tour"],
+  "Senza limite di tempo": [
+    "No time limit",
+    "Sin límite de tiempo",
+    "Ohne Zeitlimit",
+    "Sans limite de temps"
+  ],
+  "Alla scadenza passa alla squadra avversaria": [
+    "When time runs out, the other team takes over",
+    "Al agotarse, pasa al equipo contrario",
+    "Nach Ablauf ist das andere Team dran",
+    "À l’expiration, le tour passe à l’autre équipe"
+  ],
+  "Attiva timer per turno": [
+    "Enable turn timer",
+    "Activar temporizador de turno",
+    "Zug-Timer aktivieren",
+    "Activer le chronomètre de tour"
+  ],
+  "Il tempo comprende indizio e scelte": [
+    "Time includes the clue and guesses",
+    "El tiempo incluye la pista y las elecciones",
+    "Die Zeit umfasst Hinweis und Kartenauswahl",
+    "Le temps comprend l’indice et les choix"
+  ],
+  ", incluso il passaggio del telefono": [
+    ", including passing the phone",
+    ", incluido el paso del teléfono",
+    ", einschließlich der Telefonübergabe",
+    ", y compris le passage du téléphone"
+  ],
+  "La partita viene salvata su questo telefono.": [
+    "The game is saved on this phone.",
+    "La partida se guarda en este teléfono.",
+    "Das Spiel wird auf diesem Telefon gespeichert.",
+    "La partie est enregistrée sur ce téléphone."
+  ],
+  "L’host deve tenere l’app aperta.": [
+    "The host must keep the app open.",
+    "El anfitrión debe mantener abierta la aplicación.",
+    "Der Host muss die App geöffnet lassen.",
+    "L’hôte doit garder l’application ouverte."
+  ],
+  "Prepara la partita →": [
+    "Prepare game →",
+    "Preparar partida →",
+    "Spiel vorbereiten →",
+    "Préparer la partie →"
+  ],
+  "Apri la stanza →": ["Open room →", "Abrir sala →", "Raum öffnen →", "Ouvrir la salle →"],
+  "Cerca la stanza →": ["Find room →", "Buscar sala →", "Raum suchen →", "Chercher la salle →"],
+  "Passate il telefono solo quando compare la schermata di conferma. Il suggeritore deve nascondere la mappa inviando l’indizio prima di consegnarlo ai decifratori.": [
+    "Only pass the phone when the confirmation screen appears. The spymaster must hide the map by submitting the clue before handing the phone to the decoders.",
+    "Pasad el teléfono solo cuando aparezca la pantalla de confirmación. El jefe de espías debe ocultar el mapa enviando la pista antes de entregarlo a los descifradores.",
+    "Gebt das Telefon erst weiter, wenn die Bestätigung erscheint. Der Geheimdienstchef muss den Hinweis senden und damit die Karte verbergen, bevor die Entschlüssler das Telefon erhalten.",
+    "Passez le téléphone uniquement lorsque l’écran de confirmation apparaît. Le maître-espion doit masquer la carte en envoyant l’indice avant de le confier aux décodeurs."
+  ],
+  "Fino a": ["Up to", "Hasta", "Bis zu", "Jusqu’à"],
+  "dispositivi, host incluso. In Bluetooth, oltre": [
+    "devices, including the host. With Bluetooth, above",
+    "dispositivos, incluido el anfitrión. En Bluetooth, por encima de",
+    "Geräte einschließlich Host. Bei Bluetooth braucht ihr über",
+    "appareils, hôte compris. En Bluetooth, au-delà de"
+  ],
+  "serve un telefono ponte: modalità sperimentale, da collaudare sui vostri modelli. L’host deve tenere l’app aperta; gli altri possono bloccare il telefono e si sincronizzano al rientro.": [
+    "a bridge phone is needed: experimental mode, to be tested on your models. The host must keep the app open; others can lock their phones and resynchronise on return.",
+    "hace falta un teléfono puente: modo experimental que debe probarse en vuestros modelos. El anfitrión debe mantener la aplicación abierta; los demás pueden bloquear el teléfono y se sincronizan al volver.",
+    "Geräten ein Brückentelefon: experimentell und auf euren Modellen zu testen. Der Host muss die App offen lassen; andere können ihr Telefon sperren und werden bei Rückkehr synchronisiert.",
+    "un téléphone relais est nécessaire : mode expérimental à tester sur vos modèles. L’hôte doit garder l’application ouverte ; les autres peuvent verrouiller leur téléphone et se resynchronisent au retour."
+  ],
+  "04 / INGRESSO": ["04 / JOIN", "04 / ENTRADA", "04 / BEITRETEN", "04 / CONNEXION"],
+  "Trova la tua stanza.": [
+    "Find your room.",
+    "Encuentra tu sala.",
+    "Finde deinen Raum.",
+    "Trouvez votre salle."
+  ],
+  "L’host deve aprire la stanza e accettare la visibilità Android. Qui compaiono i dispositivi rilevati e già associati. Se riconosci il telefono dell’host, puoi provare a collegarti anche prima della verifica del servizio. Confermate gli eventuali codici di associazione su entrambi i telefoni.": [
+    "The host must open the room and accept Android discoverability. Detected and paired devices appear here. If you recognise the host’s phone, try connecting before service verification. Confirm pairing codes on both phones.",
+    "El anfitrión debe abrir la sala y aceptar la visibilidad en Android. Aquí aparecen los dispositivos detectados y emparejados. Si reconoces su teléfono, puedes conectarte antes de verificar el servicio. Confirmad los códigos en ambos teléfonos.",
+    "Der Host muss den Raum öffnen und die Android-Sichtbarkeit erlauben. Hier erscheinen gefundene und gekoppelte Geräte. Erkennt ihr das Host-Telefon, könnt ihr die Verbindung vor der Dienstprüfung versuchen. Bestätigt Kopplungscodes auf beiden Telefonen.",
+    "L’hôte doit ouvrir la salle et accepter la visibilité Android. Les appareils détectés et associés apparaissent ici. Si vous reconnaissez le téléphone hôte, essayez avant la vérification du service. Confirmez les codes d’association sur les deux téléphones."
+  ],
+  "Verifica dei servizi Open Codenames…": [
+    "Checking Open Codenames services…",
+    "Verificando servicios de Open Codenames…",
+    "Open-Codenames-Dienste werden geprüft…",
+    "Vérification des services Open Codenames…"
+  ],
+  "Ricerca dispositivi nelle vicinanze…": [
+    "Searching for nearby devices…",
+    "Buscando dispositivos cercanos…",
+    "Geräte in der Nähe werden gesucht…",
+    "Recherche d’appareils à proximité…"
+  ],
+  "PONTE BLUETOOTH · SPERIMENTALE": [
+    "BLUETOOTH BRIDGE · EXPERIMENTAL",
+    "PUENTE BLUETOOTH · EXPERIMENTAL",
+    "BLUETOOTH-BRÜCKE · EXPERIMENTELL",
+    "RELAIS BLUETOOTH · EXPÉRIMENTAL"
+  ],
+  "HOST BLUETOOTH": ["BLUETOOTH HOST", "ANFITRIÓN BLUETOOTH", "BLUETOOTH-HOST", "HÔTE BLUETOOTH"],
+  "DISPOSITIVO · SERVIZIO NON VERIFICATO": [
+    "DEVICE · UNVERIFIED SERVICE",
+    "DISPOSITIVO · SERVICIO SIN VERIFICAR",
+    "GERÄT · DIENST NICHT BESTÄTIGT",
+    "APPAREIL · SERVICE NON VÉRIFIÉ"
+  ],
+  " · Già associato": [
+    " · Already paired",
+    " · Ya emparejado",
+    " · Bereits gekoppelt",
+    " · Déjà associé"
+  ],
+  "Il servizio del gioco non è ancora confermato. Un dispositivo già associato potrebbe non essere nelle vicinanze.": [
+    "The game service is not confirmed yet. A paired device may not be nearby.",
+    "El servicio del juego aún no está confirmado. Un dispositivo emparejado puede no estar cerca.",
+    "Der Spieldienst ist noch nicht bestätigt. Ein gekoppeltes Gerät ist möglicherweise nicht in der Nähe.",
+    "Le service du jeu n’est pas encore confirmé. Un appareil associé peut être hors de portée."
+  ],
+  "Richiedi ingresso": [
+    "Request to join",
+    "Solicitar entrada",
+    "Beitritt anfragen",
+    "Demander à rejoindre"
+  ],
+  "Prova collegamento all’host": [
+    "Try connecting to host",
+    "Probar conexión al anfitrión",
+    "Host-Verbindung versuchen",
+    "Essayer de joindre l’hôte"
+  ],
+  "Collega come ponte sperimentale": [
+    "Connect as experimental bridge",
+    "Conectar como puente experimental",
+    "Über experimentelle Brücke verbinden",
+    "Connexion via relais expérimental"
+  ],
+  "Nessun dispositivo individuato": [
+    "No devices found",
+    "No se encontraron dispositivos",
+    "Keine Geräte gefunden",
+    "Aucun appareil trouvé"
+  ],
+  "Avvicina i telefoni e chiedi all’host di rendersi nuovamente visibile. Su Android 11 o precedente serve anche la posizione attiva. Puoi anche associare i telefoni dalle impostazioni Bluetooth e ripetere la ricerca.": [
+    "Bring the phones closer and ask the host to become discoverable again. On Android 11 or earlier, location must also be on. You can also pair phones in Bluetooth settings and search again.",
+    "Acercad los teléfonos y pedid al anfitrión que vuelva a hacerse visible. En Android 11 o anterior también debe estar activa la ubicación. Podéis emparejar los teléfonos en los ajustes Bluetooth y repetir la búsqueda.",
+    "Bringt die Telefone näher zusammen und bittet den Host, sich erneut sichtbar zu machen. Bis Android 11 muss auch der Standort aktiviert sein. Ihr könnt die Telefone in den Bluetooth-Einstellungen koppeln und erneut suchen.",
+    "Rapprochez les téléphones et demandez à l’hôte de se rendre à nouveau visible. Sur Android 11 ou antérieur, la localisation doit aussi être activée. Vous pouvez associer les téléphones dans les paramètres Bluetooth et relancer la recherche."
+  ],
+  "Interrompi ricerca": [
+    "Stop search",
+    "Detener búsqueda",
+    "Suche stoppen",
+    "Arrêter la recherche"
+  ],
+  "Ripeti ricerca": ["Search again", "Buscar de nuevo", "Erneut suchen", "Relancer la recherche"],
+  "OPPURE INDIRIZZO BLUETOOTH": [
+    "OR BLUETOOTH ADDRESS",
+    "O DIRECCIÓN BLUETOOTH",
+    "ODER BLUETOOTH-ADRESSE",
+    "OU ADRESSE BLUETOOTH"
+  ],
+  "Host diretto": ["Direct host", "Anfitrión directo", "Direkter Host", "Hôte direct"],
+  "Ponte sperimentale": [
+    "Experimental bridge",
+    "Puente experimental",
+    "Experimentelle Brücke",
+    "Relais expérimental"
+  ],
+  "Collega indirizzo": [
+    "Connect to address",
+    "Conectar a la dirección",
+    "Mit Adresse verbinden",
+    "Se connecter à l’adresse"
+  ],
+  "Usate la stessa rete o l’hotspot dell’host. Se Android avvisa che la rete non ha Internet, scegliete di restare collegati.": [
+    "Use the same network or the host’s hotspot. If Android warns there is no Internet, choose to stay connected.",
+    "Usad la misma red o el punto de acceso del anfitrión. Si Android avisa de que no hay Internet, elegid seguir conectados.",
+    "Nutzt dasselbe Netzwerk oder den Hotspot des Hosts. Warnt Android vor fehlendem Internet, bleibt trotzdem verbunden.",
+    "Utilisez le même réseau ou le point d’accès de l’hôte. Si Android signale l’absence d’Internet, choisissez de rester connecté."
+  ],
+  "▦  Scansiona QR dell’host": [
+    "▦  Scan host QR code",
+    "▦  Escanear QR del anfitrión",
+    "▦  Host-QR-Code scannen",
+    "▦  Scanner le QR code de l’hôte"
+  ],
+  "INDIRIZZO IPv4 LOCALE": [
+    "LOCAL IPv4 ADDRESS",
+    "DIRECCIÓN IPv4 LOCAL",
+    "LOKALE IPv4-ADRESSE",
+    "ADRESSE IPv4 LOCALE"
+  ],
+  "CODICE STANZA": ["ROOM CODE", "CÓDIGO DE SALA", "RAUMCODE", "CODE DE SALLE"],
+  "6 caratteri, es. A1B2C3": [
+    "6 characters, e.g. A1B2C3",
+    "6 caracteres, p. ej. A1B2C3",
+    "6 Zeichen, z. B. A1B2C3",
+    "6 caractères, ex. A1B2C3"
+  ],
+  "Richiedi ingresso →": [
+    "Request to join →",
+    "Solicitar entrada →",
+    "Beitritt anfragen →",
+    "Demander à rejoindre →"
+  ],
+  "Un invito, tutto locale.": [
+    "An invitation, entirely local.",
+    "Una invitación, totalmente local.",
+    "Eine Einladung, ganz lokal.",
+    "Une invitation, entièrement locale."
+  ],
+  "La fotocamera serve solo a leggere l’indirizzo locale e il codice stanza. Non vengono salvate immagini.": [
+    "The camera only reads the local address and room code. No images are saved.",
+    "La cámara solo lee la dirección local y el código de sala. No se guardan imágenes.",
+    "Die Kamera liest nur die lokale Adresse und den Raumcode. Es werden keine Bilder gespeichert.",
+    "La caméra lit uniquement l’adresse locale et le code de salle. Aucune image n’est enregistrée."
+  ],
+  "Consenti fotocamera": [
+    "Allow camera",
+    "Permitir cámara",
+    "Kamera erlauben",
+    "Autoriser la caméra"
+  ],
+  "QR non valido per Open Codenames": [
+    "Invalid Open Codenames QR code",
+    "QR no válido para Open Codenames",
+    "Ungültiger Open-Codenames-QR-Code",
+    "QR code non valide pour Open Codenames"
+  ],
+  "Scansiona di nuovo": ["Scan again", "Escanear de nuevo", "Erneut scannen", "Scanner à nouveau"],
+  "Inserisci a mano": [
+    "Enter manually",
+    "Introducir manualmente",
+    "Manuell eingeben",
+    "Saisir manuellement"
+  ],
+  "RETE LOCALE": ["LOCAL NETWORK", "RED LOCAL", "LOKALES NETZWERK", "RÉSEAU LOCAL"],
+  "VERIFICA IL VERO HOST": [
+    "VERIFY THE REAL HOST",
+    "VERIFICA EL ANFITRIÓN REAL",
+    "ECHTEN HOST PRÜFEN",
+    "VÉRIFIEZ LE VÉRITABLE HÔTE"
+  ],
+  "Confronta tutti i gruppi con “Impronta host” sul telefono che ospita la partita. Conferma solo se coincidono: protegge le credenziali e la mappa dal telefono ponte.": [
+    "Compare every group with “Host fingerprint” on the actual host phone. Confirm only if they match: this protects credentials and the map from the bridge phone.",
+    "Compara todos los grupos con «Huella del anfitrión» en el teléfono que aloja la partida. Confirma solo si coinciden: protege las credenciales y el mapa frente al puente.",
+    "Vergleicht alle Gruppen mit „Host-Fingerabdruck“ auf dem echten Host-Telefon. Bestätigt nur bei Übereinstimmung: So bleiben Zugangsdaten und Karte vor der Brücke geschützt.",
+    "Comparez tous les groupes avec « Empreinte de l’hôte » sur le téléphone hôte. Confirmez uniquement s’ils correspondent : cela protège les identifiants et la carte du relais."
+  ],
+  "Conferma impronta": [
+    "Confirm fingerprint",
+    "Confirmar huella",
+    "Fingerabdruck bestätigen",
+    "Confirmer l’empreinte"
+  ],
+  "In attesa del collegamento": [
+    "Waiting for connection",
+    "Esperando conexión",
+    "Warte auf Verbindung",
+    "En attente de connexion"
+  ],
+  "Stanza non ancora aperta": [
+    "Room not open yet",
+    "La sala aún no está abierta",
+    "Raum noch nicht geöffnet",
+    "Salle pas encore ouverte"
+  ],
+  "Ogni ingresso deve essere approvato dall’host. Se il collegamento si interrompe, la sessione approvata può essere recuperata.": [
+    "The host must approve every request. If the connection drops, an approved session can be recovered.",
+    "El anfitrión debe aprobar cada solicitud. Si se pierde la conexión, se puede recuperar una sesión aprobada.",
+    "Der Host muss jeden Beitritt bestätigen. Bei Verbindungsabbruch kann eine bestätigte Sitzung wiederhergestellt werden.",
+    "L’hôte doit approuver chaque demande. Si la connexion est interrompue, une session approuvée peut être récupérée."
+  ],
+  "Riprendi collegamento": ["Reconnect", "Reconectar", "Neu verbinden", "Se reconnecter"],
+  "Torna alla Home": ["Back to home", "Volver al inicio", "Zur Startseite", "Retour à l’accueil"],
+  "UN TELEFONO PER TUTTI": [
+    "ONE PHONE FOR EVERYONE",
+    "UN TELÉFONO PARA TODOS",
+    "EIN TELEFON FÜR ALLE",
+    "UN TÉLÉPHONE POUR TOUS"
+  ],
+  "LA TUA STANZA": ["YOUR ROOM", "TU SALA", "DEIN RAUM", "VOTRE SALLE"],
+  "SALA OPERATIVA": [
+    "OPERATIONS ROOM",
+    "SALA DE OPERACIONES",
+    "EINSATZRAUM",
+    "SALLE DES OPÉRATIONS"
+  ],
+  "Preparate le due squadre.": [
+    "Get both teams ready.",
+    "Preparad los dos equipos.",
+    "Bereitet beide Teams vor.",
+    "Préparez les deux équipes."
+  ],
+  "Invita la squadra.": [
+    "Invite your team.",
+    "Invita a tu equipo.",
+    "Lade dein Team ein.",
+    "Invitez votre équipe."
+  ],
+  "Scegli la tua copertura.": [
+    "Choose your cover.",
+    "Elige tu identidad.",
+    "Wähle deine Tarnung.",
+    "Choisissez votre couverture."
+  ],
+  "Lo stesso telefono passa al suggeritore, poi ai decifratori della squadra di turno. Dopo l’indizio la mappa viene nascosta. Al cambio turno il telefono passa alla squadra avversaria. Non servono altri dispositivi o collegamenti.": [
+    "The same phone goes to the spymaster, then to the active team’s decoders. The map is hidden after the clue. At the next turn, pass the phone to the opposing team. No other devices or connections are needed.",
+    "El mismo teléfono pasa al jefe de espías y después a los descifradores del equipo de turno. El mapa se oculta tras la pista. Al cambiar de turno, pasa al equipo contrario. No hacen falta otros dispositivos ni conexiones.",
+    "Dasselbe Telefon geht erst an den Geheimdienstchef, dann an die Entschlüssler des aktiven Teams. Nach dem Hinweis wird die Karte verborgen. Im nächsten Zug erhält das gegnerische Team das Telefon. Weitere Geräte oder Verbindungen sind nicht nötig.",
+    "Le même téléphone passe au maître-espion, puis aux décodeurs de l’équipe active. La carte est masquée après l’indice. Au tour suivant, passez le téléphone à l’équipe adverse. Aucun autre appareil ni connexion n’est nécessaire."
+  ],
+  "Nome dispositivo:": [
+    "Device name:",
+    "Nombre del dispositivo:",
+    "Gerätename:",
+    "Nom de l’appareil :"
+  ],
+  "Rendi host visibile per 5 minuti": [
+    "Make host discoverable for 5 minutes",
+    "Hacer visible al anfitrión durante 5 minutos",
+    "Host für 5 Minuten sichtbar machen",
+    "Rendre l’hôte visible pendant 5 minutes"
+  ],
+  "IMPRONTA HOST": [
+    "HOST FINGERPRINT",
+    "HUELLA DEL ANFITRIÓN",
+    "HOST-FINGERABDRUCK",
+    "EMPREINTE DE L’HÔTE"
+  ],
+  "Per arrivare a 10: un partecipante già collegato attiva il ponte sul proprio telefono; gli ultimi due entrano da quel ponte e verificano questa impronta. Il ponte è sperimentale e dipende dal supporto Bluetooth dei telefoni.": [
+    "To reach 10: a connected player enables a bridge on their phone; the last two join through it and verify this fingerprint. Bridging is experimental and depends on the phones’ Bluetooth support.",
+    "Para llegar a 10: un participante conectado activa el puente en su teléfono; los dos últimos entran a través de él y verifican esta huella. El puente es experimental y depende del Bluetooth de los teléfonos.",
+    "Für 10 Geräte aktiviert ein verbundener Teilnehmer die Brücke; die letzten beiden treten darüber bei und prüfen diesen Fingerabdruck. Die Brücke ist experimentell und hängt von der Bluetooth-Unterstützung der Telefone ab.",
+    "Pour atteindre 10 : un participant connecté active le relais ; les deux derniers le rejoignent et vérifient cette empreinte. Le relais est expérimental et dépend du Bluetooth des téléphones."
+  ],
+  "CODICE STANZA ·": ["ROOM CODE ·", "CÓDIGO DE SALA ·", "RAUMCODE ·", "CODE DE SALLE ·"],
+  "Attiva l’hotspot o collegati a una rete Wi-Fi, poi premi Riprendi collegamento.": [
+    "Enable the hotspot or join a Wi-Fi network, then tap Reconnect.",
+    "Activa el punto de acceso o conéctate a una red Wi-Fi y pulsa Reconectar.",
+    "Aktiviere den Hotspot oder verbinde dich mit einem WLAN und tippe auf Neu verbinden.",
+    "Activez le point d’accès ou connectez-vous au Wi-Fi, puis appuyez sur Se reconnecter."
+  ],
+  "codice": ["code", "código", "Code", "code"],
+  "Scegli l’indirizzo raggiungibile dalla rete condivisa.": [
+    "Choose the address reachable from the shared network.",
+    "Elige la dirección accesible desde la red compartida.",
+    "Wähle die im gemeinsamen Netzwerk erreichbare Adresse.",
+    "Choisissez l’adresse accessible depuis le réseau partagé."
+  ],
+  "Ospita fino a 2 collegamenti aggiuntivi, mantenendo aperta l’app. L’host approva tutti gli ingressi. I dati dei compagni attraversano il ponte cifrati; alcuni telefoni non supportano questo collegamento simultaneo.": [
+    "Allows 2 extra connections while the app stays open. The host approves everyone. Player data passes through the bridge encrypted; some phones cannot support these simultaneous connections.",
+    "Permite 2 conexiones adicionales con la aplicación abierta. El anfitrión aprueba todas las entradas. Los datos pasan cifrados por el puente; algunos teléfonos no admiten estas conexiones simultáneas.",
+    "Erlaubt 2 zusätzliche Verbindungen bei geöffneter App. Der Host bestätigt alle Beitritte. Daten passieren die Brücke verschlüsselt; manche Telefone unterstützen die gleichzeitigen Verbindungen nicht.",
+    "Permet 2 connexions supplémentaires en gardant l’application ouverte. L’hôte approuve les entrées. Les données traversent le relais chiffrées ; certains téléphones ne prennent pas en charge ces connexions simultanées."
+  ],
+  "Ponte attivo · {0} / 2 collegati": [
+    "Bridge active · {0} / 2 connected",
+    "Puente activo · {0} / 2 conectados",
+    "Brücke aktiv · {0} / 2 verbunden",
+    "Relais actif · {0} / 2 connectés"
+  ],
+  "Estendi la squadra fino a 10": [
+    "Extend your team to 10",
+    "Amplía el grupo hasta 10",
+    "Gruppe auf 10 erweitern",
+    "Agrandissez le groupe à 10"
+  ],
+  "Disattiva ponte": [
+    "Disable bridge",
+    "Desactivar puente",
+    "Brücke deaktivieren",
+    "Désactiver le relais"
+  ],
+  "Attiva ponte sperimentale": [
+    "Enable experimental bridge",
+    "Activar puente experimental",
+    "Experimentelle Brücke aktivieren",
+    "Activer le relais expérimental"
+  ],
+  "Rendi ponte visibile": [
+    "Make bridge discoverable",
+    "Hacer visible el puente",
+    "Brücke sichtbar machen",
+    "Rendre le relais visible"
+  ],
+  "INGRESSO TRAMITE PONTE CIFRATO": [
+    "JOINING THROUGH ENCRYPTED BRIDGE",
+    "ENTRADA POR PUENTE CIFRADO",
+    "BEITRITT ÜBER VERSCHLÜSSELTE BRÜCKE",
+    "CONNEXION VIA RELAIS CHIFFRÉ"
+  ],
+  "RICHIESTA D’INGRESSO": [
+    "JOIN REQUEST",
+    "SOLICITUD DE ENTRADA",
+    "BEITRITTSANFRAGE",
+    "DEMANDE DE CONNEXION"
+  ],
+  "DISPOSITIVI CONDIVISI": [
+    "SHARED DEVICES",
+    "DISPOSITIVOS COMPARTIDOS",
+    "GETEILTE GERÄTE",
+    "APPAREILS PARTAGÉS"
+  ],
+  "Modalità:": ["Mode:", "Modo:", "Modus:", "Mode :"],
+  "Unico dispositivo · un telefono": [
+    "Single device · one phone",
+    "Dispositivo único · un teléfono",
+    "Einzelgerät · ein Telefon",
+    "Appareil unique · un téléphone"
+  ],
+  "Condivisa · da 2 dispositivi": [
+    "Shared · from 2 devices",
+    "Compartida · desde 2 dispositivos",
+    "Geteilt · ab 2 Geräten",
+    "Partagée · dès 2 appareils"
+  ],
+  "Classica · da 4 dispositivi": [
+    "Classic · from 4 devices",
+    "Clásica · desde 4 dispositivos",
+    "Klassisch · ab 4 Geräten",
+    "Classique · dès 4 appareils"
+  ],
+  "Tempo per turno:": ["Time per turn:", "Tiempo por turno:", "Zeit pro Zug:", "Temps par tour :"],
+  "{0} secondi · cambio automatico": [
+    "{0} seconds · automatic switch",
+    "{0} segundos · cambio automático",
+    "{0} Sekunden · automatischer Wechsel",
+    "{0} secondes · changement automatique"
+  ],
+  "nessun limite": ["no limit", "sin límite", "ohne Limit", "sans limite"],
+  "Mescola squadre": ["Shuffle teams", "Mezclar equipos", "Teams mischen", "Mélanger les équipes"],
+  "Mescolare le squadre?": [
+    "Shuffle teams?",
+    "¿Mezclar equipos?",
+    "Teams mischen?",
+    "Mélanger les équipes ?"
+  ],
+  "Le squadre saranno bilanciate. I suggeritori restano uno per squadra e tutti dovranno confermare di nuovo.": [
+    "Teams will be balanced, with one spymaster each. Everyone must confirm readiness again.",
+    "Los equipos quedarán equilibrados, con un jefe de espías por equipo. Todos deberán confirmar de nuevo.",
+    "Die Teams werden ausgeglichen, mit je einem Geheimdienstchef. Alle müssen erneut ihre Bereitschaft bestätigen.",
+    "Les équipes seront équilibrées, avec un maître-espion chacune. Tout le monde devra confirmer à nouveau."
+  ],
+  "SUGGERITORI · 1 DISPOSITIVO": [
+    "SPYMASTERS · 1 DEVICE",
+    "JEFES DE ESPÍAS · 1 DISPOSITIVO",
+    "GEHEIMDIENSTCHEFS · 1 GERÄT",
+    "MAÎTRES-ESPIONS · 1 APPAREIL"
+  ],
+  "DECIFRATORI · 1 O PIÙ DISPOSITIVI": [
+    "DECODERS · 1 OR MORE DEVICES",
+    "DESCIFRADORES · 1 O MÁS DISPOSITIVOS",
+    "ENTSCHLÜSSLER · 1 ODER MEHR GERÄTE",
+    "DÉCODEURS · 1 APPAREIL OU PLUS"
+  ],
+  "Mappa riservata, telefono da passare tra i due suggeritori.": [
+    "Secret map; pass the phone between both spymasters.",
+    "Mapa secreto; pasad el teléfono entre los dos jefes de espías.",
+    "Geheime Karte; Telefon zwischen beiden Geheimdienstchefs weitergeben.",
+    "Carte secrète ; passez le téléphone entre les deux maîtres-espions."
+  ],
+  "Tabellone pubblico, telefoni da passare ai decifratori della squadra di turno.": [
+    "Public board; pass phones to the active team’s decoders.",
+    "Tablero público; pasad los teléfonos a los descifradores del equipo activo.",
+    "Öffentliches Spielfeld; Telefone an die Entschlüssler des aktiven Teams geben.",
+    "Plateau public ; passez les téléphones aux décodeurs de l’équipe active."
+  ],
+  "In attesa di un dispositivo": [
+    "Waiting for a device",
+    "Esperando un dispositivo",
+    "Warte auf ein Gerät",
+    "En attente d’un appareil"
+  ],
+  " · questo telefono": [
+    " · this phone",
+    " · este teléfono",
+    " · dieses Telefon",
+    " · ce téléphone"
+  ],
+  " · host": [" · host", " · anfitrión", " · Host", " · hôte"],
+  "Da confermare": ["Not confirmed", "Sin confirmar", "Nicht bestätigt", "À confirmer"],
+  "Rimuovi dispositivo": [
+    "Remove device",
+    "Eliminar dispositivo",
+    "Gerät entfernen",
+    "Retirer l’appareil"
+  ],
+  "Squadra": ["Team", "Equipo", "Team", "Équipe"],
+  "SUGGERITORE · 0 / 1": [
+    "SPYMASTER · 0 / 1",
+    "JEFE DE ESPÍAS · 0 / 1",
+    "GEHEIMDIENSTCHEF · 0 / 1",
+    "MAÎTRE-ESPION · 0 / 1"
+  ],
+  "Posto disponibile": ["Available spot", "Puesto disponible", "Platz frei", "Place disponible"],
+  "SUGGERITORE · 1 / 1": [
+    "SPYMASTER · 1 / 1",
+    "JEFE DE ESPÍAS · 1 / 1",
+    "GEHEIMDIENSTCHEF · 1 / 1",
+    "MAÎTRE-ESPION · 1 / 1"
+  ],
+  " · tu": [" · you", " · tú", " · du", " · vous"],
+  "da confermare": ["not confirmed", "sin confirmar", "nicht bestätigt", "à confirmer"],
+  "Non pronto": ["Not ready", "No preparado", "Nicht bereit", "Pas prêt"],
+  "Rimuovi {0}": ["Remove {0}", "Eliminar a {0}", "{0} entfernen", "Retirer {0}"],
+  "Rimuovi partecipante": [
+    "Remove player",
+    "Eliminar participante",
+    "Teilnehmer entfernen",
+    "Retirer le participant"
+  ],
+  "Squadra in attesa di partecipanti": [
+    "Waiting for team members",
+    "Esperando participantes",
+    "Warte auf Teammitglieder",
+    "Équipe en attente de participants"
+  ],
+  "IL TUO INCARICO": ["YOUR ASSIGNMENT", "TU MISIÓN", "DEINE AUFGABE", "VOTRE RÔLE"],
+  "Suggeritore · occupato": [
+    "Spymaster · taken",
+    "Jefe de espías · ocupado",
+    "Geheimdienstchef · belegt",
+    "Maître-espion · occupé"
+  ],
+  "Dispositivo suggeritori": [
+    "Spymasters’ device",
+    "Dispositivo de jefes de espías",
+    "Gerät der Geheimdienstchefs",
+    "Appareil des maîtres-espions"
+  ],
+  "Dispositivo decifratori": [
+    "Decoders’ device",
+    "Dispositivo de descifradores",
+    "Gerät der Entschlüssler",
+    "Appareil des décodeurs"
+  ],
+  "✓ Pronto · tocca per annullare": [
+    "✓ Ready · tap to cancel",
+    "✓ Preparado · toca para cancelar",
+    "✓ Bereit · zum Widerrufen tippen",
+    "✓ Prêt · toucher pour annuler"
+  ],
+  "Conferma: sono pronto": [
+    "Confirm: I’m ready",
+    "Confirmar: estoy preparado",
+    "Bestätigen: Ich bin bereit",
+    "Confirmer : je suis prêt"
+  ],
+  "Quando avete formato le due squadre, avviate la missione. Il telefono indicherà a chi passarlo e richiederà conferma prima di mostrare la mappa o abilitare le scelte.": [
+    "Once both teams are ready, start the mission. The phone will tell you who should receive it and ask for confirmation before showing the map or enabling guesses.",
+    "Cuando ambos equipos estén preparados, iniciad la misión. El teléfono indicará a quién pasarlo y pedirá confirmación antes de mostrar el mapa o permitir elecciones.",
+    "Startet die Mission, sobald beide Teams bereit sind. Das Telefon zeigt an, wer es erhalten soll, und verlangt eine Bestätigung, bevor Karte oder Auswahl freigegeben werden.",
+    "Quand les deux équipes sont prêtes, lancez la mission. Le téléphone indique à qui le passer et demande confirmation avant d’afficher la carte ou d’autoriser les choix."
+  ],
+  "Per partire: almeno 2 dispositivi connessi e pronti, esattamente uno per i suggeritori e almeno uno per i decifratori. Il dispositivo segue la squadra di turno.": [
+    "To start: at least 2 connected, ready devices; exactly one for spymasters and at least one for decoders. Each device follows the active team.",
+    "Para empezar: al menos 2 dispositivos conectados y preparados, exactamente uno para los jefes de espías y uno o más para los descifradores. Cada dispositivo sigue al equipo activo.",
+    "Zum Start: mindestens 2 verbundene, bereite Geräte; genau eines für die Geheimdienstchefs und mindestens eines für die Entschlüssler. Jedes Gerät folgt dem aktiven Team.",
+    "Pour démarrer : au moins 2 appareils connectés et prêts, exactement un pour les maîtres-espions et au moins un pour les décodeurs. Chaque appareil suit l’équipe active."
+  ],
+  "Per partire: almeno 4 persone connesse e pronte, esattamente un suggeritore e almeno un decifratore per squadra.": [
+    "To start: at least 4 connected, ready players, with exactly one spymaster and at least one decoder per team.",
+    "Para empezar: al menos 4 personas conectadas y preparadas, con un jefe de espías y al menos un descifrador por equipo.",
+    "Zum Start: mindestens 4 verbundene, bereite Personen, mit genau einem Geheimdienstchef und mindestens einem Entschlüssler pro Team.",
+    "Pour démarrer : au moins 4 personnes connectées et prêtes, avec un maître-espion et au moins un décodeur par équipe."
+  ],
+  "Il ruolo resta bloccato fino alla fine.": [
+    "Roles stay fixed until the end.",
+    "Los roles quedan fijos hasta el final.",
+    "Die Rollen bleiben bis zum Ende fest.",
+    "Les rôles restent fixes jusqu’à la fin."
+  ],
+  "Avvia missione →": [
+    "Start mission →",
+    "Iniciar misión →",
+    "Mission starten →",
+    "Lancer la mission →"
+  ],
+  "PASSAGGIO DEL TELEFONO": [
+    "PASS THE PHONE",
+    "PASO DEL TELÉFONO",
+    "TELEFON WEITERGEBEN",
+    "PASSAGE DU TÉLÉPHONE"
+  ],
+  "Sincronizzazione della partita…": [
+    "Synchronising game…",
+    "Sincronizando partida…",
+    "Spiel wird synchronisiert…",
+    "Synchronisation de la partie…"
+  ],
+  "Passa il telefono alla squadra {0}.": [
+    "Pass the phone to the {0} team.",
+    "Pasa el teléfono al equipo {0}.",
+    "Gib das Telefon an Team {0}.",
+    "Passez le téléphone à l’équipe {0}."
+  ],
+  "Al suggeritore di turno": [
+    "To the active spymaster",
+    "Al jefe de espías de turno",
+    "An den aktiven Geheimdienstchef",
+    "Au maître-espion du tour"
+  ],
+  "Ai decifratori di turno": [
+    "To the active decoders",
+    "A los descifradores de turno",
+    "An die aktiven Entschlüssler",
+    "Aux décodeurs du tour"
+  ],
+  "Attendi lo stato attuale prima di passare il telefono o mostrare la mappa.": [
+    "Wait for the current state before passing the phone or showing the map.",
+    "Espera al estado actual antes de pasar el teléfono o mostrar el mapa.",
+    "Warte auf den aktuellen Stand, bevor du das Telefon weitergibst oder die Karte zeigst.",
+    "Attendez l’état actuel avant de passer le téléphone ou d’afficher la carte."
+  ],
+  "Solo il suggeritore può guardare questo schermo. Conferma quando ha ricevuto il telefono per mostrare la mappa riservata.": [
+    "Only the spymaster may see this screen. Confirm once they have the phone to reveal the secret map.",
+    "Solo el jefe de espías puede mirar esta pantalla. Confirma cuando tenga el teléfono para mostrar el mapa secreto.",
+    "Nur der Geheimdienstchef darf diesen Bildschirm sehen. Bestätige, sobald er das Telefon hat, um die geheime Karte anzuzeigen.",
+    "Seul le maître-espion peut regarder cet écran. Confirmez lorsqu’il a reçu le téléphone pour afficher la carte secrète."
+  ],
+  "Conferma quando il telefono è in mano ai decifratori della squadra indicata.": [
+    "Confirm once the phone is with the indicated team’s decoders.",
+    "Confirma cuando el teléfono esté en manos de los descifradores del equipo indicado.",
+    "Bestätige, sobald die Entschlüssler des angezeigten Teams das Telefon haben.",
+    "Confirmez lorsque les décodeurs de l’équipe indiquée ont le téléphone."
+  ],
+  "Il tempo del turno continua durante il passaggio.": [
+    "The turn timer keeps running while passing the phone.",
+    "El tiempo del turno sigue corriendo durante el paso del teléfono.",
+    "Der Zug-Timer läuft während der Übergabe weiter.",
+    "Le chronomètre continue pendant le passage du téléphone."
+  ],
+  "L’host non è disponibile. Attendete il suo rientro.": [
+    "The host is unavailable. Wait for their return.",
+    "El anfitrión no está disponible. Esperad su regreso.",
+    "Der Host ist nicht verfügbar. Wartet auf seine Rückkehr.",
+    "L’hôte est indisponible. Attendez son retour."
+  ],
+  "Conferma · {0}squadra {1}": [
+    "Confirm · {0}{1} team",
+    "Confirmar · {0}equipo {1}",
+    "Bestätigen · {0}Team {1}",
+    "Confirmer · {0}équipe {1}"
+  ],
+  "suggeritore · ": [
+    "spymaster · ",
+    "jefe de espías · ",
+    "Geheimdienstchef · ",
+    "maître-espion · "
+  ],
+  "decifratori · ": ["decoders · ", "descifradores · ", "Entschlüssler · ", "décodeurs · "],
+  "UNICO DISPOSITIVO · RUOLO DI QUESTA FASE": [
+    "SINGLE DEVICE · CURRENT ROLE",
+    "DISPOSITIVO ÚNICO · ROL ACTUAL",
+    "EINZELGERÄT · AKTUELLE ROLLE",
+    "APPAREIL UNIQUE · RÔLE ACTUEL"
+  ],
+  "DISPOSITIVO CONDIVISO · SQUADRA DI TURNO": [
+    "SHARED DEVICE · ACTIVE TEAM",
+    "DISPOSITIVO COMPARTIDO · EQUIPO ACTIVO",
+    "GETEILTES GERÄT · AKTIVES TEAM",
+    "APPAREIL PARTAGÉ · ÉQUIPE ACTIVE"
+  ],
+  "LA TUA SQUADRA": ["YOUR TEAM", "TU EQUIPO", "DEIN TEAM", "VOTRE ÉQUIPE"],
+  "È il turno della tua squadra.": [
+    "It’s your team’s turn.",
+    "Es el turno de tu equipo.",
+    "Dein Team ist dran.",
+    "C’est le tour de votre équipe."
+  ],
+  "Ora gioca la squadra {0}.": [
+    "The {0} team is playing now.",
+    "Ahora juega el equipo {0}.",
+    "Jetzt spielt Team {0}.",
+    "L’équipe {0} joue maintenant."
+  ],
+  "MISSIONE CONCLUSA": [
+    "MISSION COMPLETE",
+    "MISIÓN TERMINADA",
+    "MISSION BEENDET",
+    "MISSION TERMINÉE"
+  ],
+  "TURNO SQUADRA {0}": [
+    "{0} TEAM’S TURN",
+    "TURNO DEL EQUIPO {0}",
+    "TEAM {0} IST DRAN",
+    "TOUR DE L’ÉQUIPE {0}"
+  ],
+  "Fine missione": ["End of mission", "Fin de la misión", "Missionsende", "Fin de mission"],
+  "Attesa indizio": [
+    "Waiting for clue",
+    "Esperando pista",
+    "Warte auf Hinweis",
+    "En attente d’indice"
+  ],
+  "Il suggeritore attivo prepara una parola.": [
+    "The active spymaster is preparing a word.",
+    "El jefe de espías activo prepara una palabra.",
+    "Der aktive Geheimdienstchef bereitet ein Wort vor.",
+    "Le maître-espion actif prépare un mot."
+  ],
+  "Tentativi disponibili: {0} · effettuati: {1}": [
+    "Guesses left: {0} · made: {1}",
+    "Intentos disponibles: {0} · realizados: {1}",
+    "Versuche übrig: {0} · gemacht: {1}",
+    "Essais restants : {0} · effectués : {1}"
+  ],
+  "TEMPO DEL TURNO · CAMBIO AUTOMATICO": [
+    "TURN TIMER · AUTOMATIC SWITCH",
+    "TIEMPO DEL TURNO · CAMBIO AUTOMÁTICO",
+    "ZUGZEIT · AUTOMATISCHER WECHSEL",
+    "TEMPS DU TOUR · CHANGEMENT AUTOMATIQUE"
+  ],
+  "Timer sospeso": [
+    "Timer paused",
+    "Temporizador en pausa",
+    "Timer angehalten",
+    "Chronomètre en pause"
+  ],
+  "Partita in attesa": ["Game waiting", "Partida en espera", "Spiel wartet", "Partie en attente"],
+  "◈ MAPPA RISERVATA · SOLO IL SUGGERITORE DI TURNO": [
+    "◈ SECRET MAP · ACTIVE SPYMASTER ONLY",
+    "◈ MAPA SECRETO · SOLO EL JEFE DE ESPÍAS ACTIVO",
+    "◈ GEHEIME KARTE · NUR AKTIVER GEHEIMDIENSTCHEF",
+    "◈ CARTE SECRÈTE · MAÎTRE-ESPION ACTIF UNIQUEMENT"
+  ],
+  "◈ MAPPA RISERVATA · ENTRAMBI I SUGGERITORI VEDONO I COLORI": [
+    "◈ SECRET MAP · BOTH SPYMASTERS SEE THE COLOURS",
+    "◈ MAPA SECRETO · AMBOS JEFES DE ESPÍAS VEN LOS COLORES",
+    "◈ GEHEIME KARTE · BEIDE GEHEIMDIENSTCHEFS SEHEN DIE FARBEN",
+    "◈ CARTE SECRÈTE · LES DEUX MAÎTRES-ESPIONS VOIENT LES COULEURS"
+  ],
+  "Il pallino si colora di rosso o blu per indicare la squadra che ha scelto la carta. Le carte già scoperte sono più scure.": [
+    "The dot turns red or blue to show which team selected the card. Revealed cards are darker.",
+    "El punto se vuelve rojo o azul para indicar qué equipo eligió la carta. Las cartas reveladas son más oscuras.",
+    "Der Punkt wird rot oder blau und zeigt das Team an, das die Karte gewählt hat. Aufgedeckte Karten sind dunkler.",
+    "Le point devient rouge ou bleu pour indiquer l’équipe ayant choisi la carte. Les cartes révélées sont plus sombres."
+  ],
+  "IL TUO INDIZIO · UNA PAROLA": [
+    "YOUR CLUE · ONE WORD",
+    "TU PISTA · UNA PALABRA",
+    "DEIN HINWEIS · EIN WORT",
+    "VOTRE INDICE · UN MOT"
+  ],
+  "Una parola, molte connessioni": [
+    "One word, many connections",
+    "Una palabra, muchas conexiones",
+    "Ein Wort, viele Verbindungen",
+    "Un mot, de nombreuses connexions"
+  ],
+  "NUMERO DI PAROLE": [
+    "NUMBER OF WORDS",
+    "NÚMERO DE PALABRAS",
+    "ANZAHL DER WÖRTER",
+    "NOMBRE DE MOTS"
+  ],
+  "0: evitate le parole legate all’indizio. Tentativi illimitati finché si indovina.": [
+    "0: avoid words related to the clue. Unlimited guesses while correct.",
+    "0: evitad las palabras relacionadas con la pista. Intentos ilimitados mientras acertéis.",
+    "0: Vermeidet Wörter zum Hinweis. Unbegrenzte Versuche, solange ihr richtig liegt.",
+    "0 : évitez les mots liés à l’indice. Essais illimités tant que vous trouvez juste."
+  ],
+  "∞: tentativi illimitati, senza indicare quante parole si collegano all’indizio.": [
+    "∞: unlimited guesses, without stating how many words relate to the clue.",
+    "∞: intentos ilimitados, sin indicar cuántas palabras se relacionan con la pista.",
+    "∞: unbegrenzte Versuche, ohne anzugeben, wie viele Wörter zum Hinweis gehören.",
+    "∞ : essais illimités, sans indiquer combien de mots sont liés à l’indice."
+  ],
+  "È comunque obbligatorio almeno un tentativo.": [
+    "At least one guess is still required.",
+    "Sigue siendo obligatorio realizar al menos un intento.",
+    "Mindestens ein Versuch bleibt Pflicht.",
+    "Au moins un essai reste obligatoire."
+  ],
+  "Nascondi mappa e passa ai decifratori": [
+    "Hide map and pass to decoders",
+    "Ocultar mapa y pasar a los descifradores",
+    "Karte verbergen und an Entschlüssler geben",
+    "Masquer la carte et passer aux décodeurs"
+  ],
+  "Trasmetti indizio": ["Send clue", "Enviar pista", "Hinweis senden", "Envoyer l’indice"],
+  "Toccate una carta per confermarla insieme. La prima scelta valida ricevuta dall’host prevale.": [
+    "Tap a card to confirm it together. The first valid choice received by the host takes priority.",
+    "Tocad una carta para confirmarla juntos. Prevalece la primera elección válida recibida por el anfitrión.",
+    "Tippt auf eine Karte und bestätigt gemeinsam. Die erste gültige Auswahl beim Host zählt.",
+    "Touchez une carte pour la confirmer ensemble. Le premier choix valide reçu par l’hôte est retenu."
+  ],
+  "Termina il turno": ["End turn", "Terminar turno", "Zug beenden", "Terminer le tour"],
+  "ESITO DELLA MISSIONE": [
+    "MISSION RESULT",
+    "RESULTADO DE LA MISIÓN",
+    "MISSIONSERGEBNIS",
+    "RÉSULTAT DE LA MISSION"
+  ],
+  "Vince la squadra {0}.": [
+    "The {0} team wins.",
+    "Gana el equipo {0}.",
+    "Team {0} gewinnt.",
+    "L’équipe {0} gagne."
+  ],
+  "Missione annullata.": [
+    "Mission cancelled.",
+    "Misión cancelada.",
+    "Mission abgebrochen.",
+    "Mission annulée."
+  ],
+  "Torna in lobby · nuova missione": [
+    "Back to lobby · new mission",
+    "Volver a la sala · nueva misión",
+    "Zur Lobby · neue Mission",
+    "Retour au salon · nouvelle mission"
+  ],
+  "L’host può riaprire la lobby per una nuova partita.": [
+    "The host can reopen the lobby for a new game.",
+    "El anfitrión puede reabrir la sala para una nueva partida.",
+    "Der Host kann die Lobby für ein neues Spiel öffnen.",
+    "L’hôte peut rouvrir le salon pour une nouvelle partie."
+  ],
+  "Consulta il registro": [
+    "View mission log",
+    "Consultar registro",
+    "Protokoll ansehen",
+    "Consulter le journal"
+  ],
+  "Annulla missione": [
+    "Cancel mission",
+    "Cancelar misión",
+    "Mission abbrechen",
+    "Annuler la mission"
+  ],
+  "Annullare la missione?": [
+    "Cancel the mission?",
+    "¿Cancelar la misión?",
+    "Mission abbrechen?",
+    "Annuler la mission ?"
+  ],
+  "Sarà possibile tornare in lobby e cambiare i ruoli.": [
+    "You can return to the lobby and change roles.",
+    "Podréis volver a la sala y cambiar los roles.",
+    "Ihr könnt zur Lobby zurückkehren und die Rollen ändern.",
+    "Vous pourrez revenir au salon et changer les rôles."
+  ],
+  "Continua a giocare": ["Keep playing", "Seguir jugando", "Weiterspielen", "Continuer à jouer"],
+  "Diagnostica · prova tecnica": [
+    "Diagnostics · technical test",
+    "Diagnóstico · prueba técnica",
+    "Diagnose · technischer Test",
+    "Diagnostic · test technique"
+  ],
+  "Salva ed esci": [
+    "Save and exit",
+    "Guardar y salir",
+    "Speichern und beenden",
+    "Enregistrer et quitter"
+  ],
+  "Lascia stanza": ["Leave room", "Salir de la sala", "Raum verlassen", "Quitter la salle"],
+  "SOLO INFORMAZIONI PUBBLICHE": [
+    "PUBLIC INFORMATION ONLY",
+    "SOLO INFORMACIÓN PÚBLICA",
+    "NUR ÖFFENTLICHE INFORMATIONEN",
+    "INFORMATIONS PUBLIQUES UNIQUEMENT"
+  ],
+  "Ogni parola lascia una traccia.": [
+    "Every word leaves a trace.",
+    "Cada palabra deja una huella.",
+    "Jedes Wort hinterlässt eine Spur.",
+    "Chaque mot laisse une trace."
+  ],
+  "Torna al tabellone": [
+    "Back to board",
+    "Volver al tablero",
+    "Zurück zum Spielfeld",
+    "Retour au plateau"
+  ],
+  "PROVA TECNICA / SOCKET NATIVI": [
+    "TECHNICAL TEST / NATIVE SOCKETS",
+    "PRUEBA TÉCNICA / SOCKETS NATIVOS",
+    "TECHNISCHER TEST / NATIVE SOCKETS",
+    "TEST TECHNIQUE / SOCKETS NATIFS"
+  ],
+  "Verifica il canale.": [
+    "Check the connection.",
+    "Verifica la conexión.",
+    "Verbindung prüfen.",
+    "Vérifiez la connexion."
+  ],
+  "Su quattro telefoni: uno ospita, tre entrano e vengono approvati. Ogni client invia un messaggio ECO e verifica la risposta dell’host. Scollega un client, poi fallo rientrare. Questa schermata registra gli eventi effettivi della sessione; non simula connessioni.": [
+    "On four phones: one hosts, three join and get approved. Each client sends an ECHO and checks the host’s reply. Disconnect a client and rejoin. This screen logs actual session events; it does not simulate connections.",
+    "Con cuatro teléfonos: uno aloja, tres entran y reciben aprobación. Cada cliente envía un ECO y comprueba la respuesta. Desconecta un cliente y hazlo volver. Esta pantalla registra eventos reales; no simula conexiones.",
+    "Mit vier Telefonen: Eines ist Host, drei treten bei und werden bestätigt. Jeder Client sendet ein ECHO und prüft die Antwort. Trennt einen Client und verbindet ihn erneut. Diese Ansicht protokolliert echte Ereignisse und simuliert keine Verbindungen.",
+    "Sur quatre téléphones : un héberge, trois rejoignent et sont approuvés. Chaque client envoie un ÉCHO et vérifie la réponse. Déconnectez un client puis reconnectez-le. Cet écran consigne les événements réels et ne simule pas de connexions."
+  ],
+  "Versione app:": [
+    "App version:",
+    "Versión de la aplicación:",
+    "App-Version:",
+    "Version de l’application :"
+  ],
+  "Connessi:": ["Connected:", "Conectados:", "Verbunden:", "Connectés :"],
+  "Versione stato:": [
+    "State version:",
+    "Versión del estado:",
+    "Zustandsversion:",
+    "Version de l’état :"
+  ],
+  "Stato:": ["Status:", "Estado:", "Status:", "État :"],
+  "\nImpronta host: {0}": [
+    "\nHost fingerprint: {0}",
+    "\nHuella del anfitrión: {0}",
+    "\nHost-Fingerabdruck: {0}",
+    "\nEmpreinte de l’hôte : {0}"
+  ],
+  "\nCollegamento tramite ponte cifrato": [
+    "\nConnected through an encrypted bridge",
+    "\nConexión a través de un puente cifrado",
+    "\nVerbindung über verschlüsselte Brücke",
+    "\nConnexion via relais chiffré"
+  ],
+  "Invia ECO all’host": [
+    "Send ECHO to host",
+    "Enviar ECO al anfitrión",
+    "ECHO an Host senden",
+    "Envoyer un ÉCHO à l’hôte"
+  ],
+  "Test da {0} #{1}": [
+    "Test from {0} #{1}",
+    "Prueba de {0} #{1}",
+    "Test von {0} #{1}",
+    "Test de {0} #{1}"
+  ],
+  "PONTE SPERIMENTALE": [
+    "EXPERIMENTAL BRIDGE",
+    "PUENTE EXPERIMENTAL",
+    "EXPERIMENTELLE BRÜCKE",
+    "RELAIS EXPÉRIMENTAL"
+  ],
+  "Il ponte deve restare in primo piano. Dopo un riavvio riattivalo qui per far rientrare i partecipanti collegati attraverso questo telefono.": [
+    "The bridge must stay in the foreground. After restarting it, enable it here so connected players can rejoin.",
+    "El puente debe permanecer en primer plano. Tras reiniciarlo, reactívalo aquí para que sus participantes puedan volver.",
+    "Die Brücke muss im Vordergrund bleiben. Aktiviere sie nach einem Neustart hier wieder, damit Teilnehmer erneut beitreten können.",
+    "Le relais doit rester au premier plan. Après redémarrage, réactivez-le ici pour permettre aux participants de revenir."
+  ],
+  "Wi-Fi e dati mobili devono essere spenti durante il test Bluetooth. I dispositivi fisici non sono stati collaudati automaticamente.": [
+    "Wi-Fi and mobile data must be off during the Bluetooth test. Physical devices have not been automatically tested.",
+    "Durante la prueba Bluetooth, apagad Wi-Fi y datos móviles. Los dispositivos físicos no se han probado automáticamente.",
+    "Beim Bluetooth-Test müssen WLAN und mobile Daten aus sein. Physische Geräte wurden nicht automatisch getestet.",
+    "Le Wi-Fi et les données mobiles doivent être coupés pendant le test Bluetooth. Les appareils physiques n’ont pas été testés automatiquement."
+  ],
+  "Torna alla stanza": ["Back to room", "Volver a la sala", "Zurück zum Raum", "Retour à la salle"],
+  "LEGGI PRIMA DELLA PRIMA MISSIONE": [
+    "READ BEFORE YOUR FIRST MISSION",
+    "LEE ANTES DE LA PRIMERA MISIÓN",
+    "VOR DER ERSTEN MISSION LESEN",
+    "À LIRE AVANT LA PREMIÈRE MISSION"
+  ],
+  "Una connessione.": ["One connection.", "Una conexión.", "Eine Verbindung.", "Une connexion."],
+  "RISERVATEZZA": ["PRIVACY", "PRIVACIDAD", "DATENSCHUTZ", "CONFIDENTIALITÉ"],
+  "Le carte coperte vengono escluse dai messaggi ai decifratori. Il telefono host conserva necessariamente la mappa completa. Non esiste protezione contro un host modificato intenzionalmente.": [
+    "Hidden cards are excluded from messages to decoders. The host phone necessarily keeps the full map. This does not protect against an intentionally modified host.",
+    "Las cartas ocultas no se envían a los descifradores. El teléfono anfitrión conserva necesariamente el mapa completo. No protege frente a un anfitrión modificado intencionadamente.",
+    "Verdeckte Karten werden nicht an Entschlüssler gesendet. Der Host speichert zwangsläufig die vollständige Karte. Gegen einen absichtlich veränderten Host besteht kein Schutz.",
+    "Les cartes cachées sont exclues des messages aux décodeurs. Le téléphone hôte conserve nécessairement la carte complète. Cela ne protège pas contre un hôte modifié intentionnellement."
+  ],
+  "PREFERENZE LOCALI": [
+    "LOCAL PREFERENCES",
+    "PREFERENCIAS LOCALES",
+    "LOKALE EINSTELLUNGEN",
+    "PRÉFÉRENCES LOCALES"
+  ],
+  "Il tuo equipaggiamento.": [
+    "Your equipment.",
+    "Tu equipamiento.",
+    "Deine Ausrüstung.",
+    "Votre équipement."
+  ],
+  "Versione": ["Version", "Versión", "Version", "Version"],
+  "Feedback aptico": [
+    "Haptic feedback",
+    "Respuesta háptica",
+    "Haptisches Feedback",
+    "Retour haptique"
+  ],
+  "Una breve vibrazione alla conferma.": [
+    "A short vibration on confirmation.",
+    "Una breve vibración al confirmar.",
+    "Kurze Vibration beim Bestätigen.",
+    "Une brève vibration à la confirmation."
+  ],
+  "Suono delle azioni": [
+    "Action sounds",
+    "Sonido de las acciones",
+    "Aktionsklänge",
+    "Sons des actions"
+  ],
+  "Segnale sintetizzato sul telefono, senza download.": [
+    "Sound generated on the phone, no download.",
+    "Sonido generado en el teléfono, sin descargas.",
+    "Auf dem Telefon erzeugter Ton, ohne Download.",
+    "Son généré sur le téléphone, sans téléchargement."
+  ],
+  "ITALIANO": ["ITALIAN", "ITALIANO", "ITALIENISCH", "ITALIEN"],
+  "parole incluse. Font Space Grotesk incluso nell’APK (SIL OFL). Codice e contenuti originali MIT. Nessun account, pubblicità, telemetria o servizio AI durante la partita.": [
+    "words included. Space Grotesk font bundled in the APK (SIL OFL). Original code and content under MIT. No accounts, ads, telemetry or AI service during play.",
+    "palabras incluidas. Fuente Space Grotesk incluida en el APK (SIL OFL). Código y contenido original MIT. Sin cuentas, anuncios, telemetría ni servicios de IA durante la partida.",
+    "Wörter enthalten. Schrift Space Grotesk im APK enthalten (SIL OFL). Eigener Code und Inhalte unter MIT. Keine Konten, Werbung, Telemetrie oder KI-Dienste während des Spiels.",
+    "mots inclus. Police Space Grotesk incluse dans l’APK (SIL OFL). Code et contenus originaux MIT. Sans compte, publicité, télémétrie ni service d’IA pendant la partie."
+  ],
+  "Conservazione: l’host salva la stanza e la mappa nella memoria privata dell’app; gli altri conservano solo le credenziali di recupero. Nessun backup cloud. Disinstallare l’app elimina questi dati.": [
+    "Storage: the host saves the room and map in private app storage; others save only recovery credentials. No cloud backup. Uninstalling deletes this data.",
+    "Almacenamiento: el anfitrión guarda la sala y el mapa en la memoria privada de la aplicación; los demás solo las credenciales de recuperación. Sin copia en la nube. Desinstalar elimina estos datos.",
+    "Speicherung: Der Host speichert Raum und Karte im privaten App-Speicher, andere nur ihre Zugangsdaten. Kein Cloud-Backup. Eine Deinstallation löscht diese Daten.",
+    "Stockage : l’hôte enregistre la salle et la carte dans la mémoire privée de l’application ; les autres, uniquement les identifiants de reprise. Aucune sauvegarde cloud. La désinstallation efface ces données."
+  ],
+  "Licenze delle dipendenze · offline": [
+    "Dependency licences · offline",
+    "Licencias de dependencias · sin conexión",
+    "Abhängigkeitslizenzen · offline",
+    "Licences des dépendances · hors ligne"
+  ],
+  "OPEN SOURCE / AVVISI INCLUSI": [
+    "OPEN SOURCE / BUNDLED NOTICES",
+    "CÓDIGO ABIERTO / AVISOS INCLUIDOS",
+    "OPEN SOURCE / ENTHALTENE HINWEISE",
+    "OPEN SOURCE / NOTICES INCLUSES"
+  ],
+  "Open Codenames © 2026 contributors · MIT. Font Space Grotesk · SIL OFL. Le dipendenze mantengono le rispettive licenze. Cerca il nome di un pacchetto e aprilo per leggere gli avvisi conservati.": [
+    "Open Codenames © 2026 contributors · MIT. Space Grotesk · SIL OFL. Dependencies retain their own licences. Find a package and open it to read the bundled notices.",
+    "Open Codenames © 2026 colaboradores · MIT. Space Grotesk · SIL OFL. Las dependencias conservan sus licencias. Busca un paquete y ábrelo para leer sus avisos incluidos.",
+    "Open Codenames © 2026 Mitwirkende · MIT. Space Grotesk · SIL OFL. Abhängigkeiten behalten ihre Lizenzen. Suche ein Paket und öffne seine enthaltenen Hinweise.",
+    "Open Codenames © 2026 contributeurs · MIT. Space Grotesk · SIL OFL. Les dépendances conservent leurs licences. Recherchez un paquet et ouvrez ses notices incluses."
+  ],
+  "CERCA PACCHETTO": ["SEARCH PACKAGES", "BUSCAR PAQUETE", "PAKET SUCHEN", "CHERCHER UN PAQUET"],
+  "es. space-grotesk o react-native": [
+    "e.g. space-grotesk or react-native",
+    "p. ej. space-grotesk o react-native",
+    "z. B. space-grotesk oder react-native",
+    "ex. space-grotesk ou react-native"
+  ],
+  "· tocca per leggere": [
+    "· tap to read",
+    "· toca para leer",
+    "· zum Lesen tippen",
+    "· toucher pour lire"
+  ],
+  "Consultare la licenza indicata nel pacchetto sorgente.": [
+    "See the licence in the source package.",
+    "Consulta la licencia indicada en el paquete fuente.",
+    "Siehe Lizenz im Quellpaket.",
+    "Consultez la licence du paquet source."
+  ],
+  "Sono mostrati i primi 30 risultati. Restringi la ricerca per trovare gli altri pacchetti. Il repository contiene anche THIRD_PARTY_NOTICES.txt con l’elenco completo.": [
+    "The first 30 results are shown. Narrow the search for more packages. The repository also includes THIRD_PARTY_NOTICES.txt with the full list.",
+    "Se muestran los primeros 30 resultados. Afina la búsqueda para encontrar otros paquetes. El repositorio incluye THIRD_PARTY_NOTICES.txt con la lista completa.",
+    "Die ersten 30 Ergebnisse werden angezeigt. Grenze die Suche ein. Im Repository steht außerdem die vollständige Liste in THIRD_PARTY_NOTICES.txt.",
+    "Les 30 premiers résultats sont affichés. Affinez la recherche pour d’autres paquets. Le dépôt contient aussi THIRD_PARTY_NOTICES.txt avec la liste complète."
+  ],
+  "OPERAZIONE IN CORSO…": [
+    "WORKING…",
+    "OPERACIÓN EN CURSO…",
+    "VORGANG LÄUFT…",
+    "OPÉRATION EN COURS…"
+  ],
+  "Resta": ["Stay", "Quedarse", "Bleiben", "Rester"],
+  "Esci": ["Exit", "Salir", "Beenden", "Quitter"],
+  "Preferenze": ["Preferences", "Preferencias", "Einstellungen", "Préférences"],
+  "Home": ["Home", "Inicio", "Startseite", "Accueil"],
+  "Indietro": ["Back", "Atrás", "Zurück", "Retour"],
+  "Suggeritori": ["Spymasters", "Jefes de espías", "Geheimdienstchefs", "Maîtres-espions"],
+  "Decifratori": ["Decoders", "Descifradores", "Entschlüssler", "Décodeurs"],
+  "Impostazioni": ["Settings", "Ajustes", "Einstellungen", "Paramètres"],
+  "Gioca": ["Play", "Jugar", "Spielen", "Jouer"],
+  "Regole": ["Rules", "Reglas", "Regeln", "Règles"],
+  "Classica": ["Classic", "Clásica", "Klassisch", "Classique"],
+  "Condivisa": ["Shared", "Compartida", "Geteilt", "Partagée"],
+  "LOCALE": ["LOCAL", "LOCAL", "LOKAL", "LOCAL"],
+  "Connesso": ["Connected", "Conectado", "Verbunden", "Connecté"],
+  "Accetta": ["Accept", "Aceptar", "Annehmen", "Accepter"],
+  "Rifiuta": ["Reject", "Rechazar", "Ablehnen", "Refuser"],
+  "PARTECIPANTI": ["PLAYERS", "PARTICIPANTES", "TEILNEHMER", "PARTICIPANTS"],
+  "Annulla": ["Cancel", "Cancelar", "Abbrechen", "Annuler"],
+  "Mescola": ["Shuffle", "Mezclar", "Mischen", "Mélanger"],
+  "Scollegato": ["Disconnected", "Desconectado", "Getrennt", "Déconnecté"],
+  "Pronto": ["Ready", "Preparado", "Bereit", "Prêt"],
+  "Rimuovi": ["Remove", "Eliminar", "Entfernen", "Retirer"],
+  "DECIFRATORI": ["DECODERS", "DESCIFRADORES", "ENTSCHLÜSSLER", "DÉCODEURS"],
+  "Rossa": ["Red", "Rojo", "Rot", "Rouge"],
+  "Blu": ["Blue", "Azul", "Blau", "Bleue"],
+  "Neutrale": ["Neutral", "Neutral", "Neutral", "Neutre"],
+  "Assassino": ["Assassin", "Asesino", "Attentäter", "Assassin"],
+  "Suggeritore": ["Spymaster", "Jefe de espías", "Geheimdienstchef", "Maître-espion"],
+  "Decifratore": ["Decoder", "Descifrador", "Entschlüssler", "Décodeur"],
+  "Lingua": ["Language", "Idioma", "Sprache", "Langue"],
+  "Scegli la lingua": [
+    "Choose a language",
+    "Elige el idioma",
+    "Sprache wählen",
+    "Choisir la langue"
+  ],
+  "Apri la scelta della lingua": [
+    "Choose the app language",
+    "Elegir el idioma de la aplicación",
+    "App-Sprache wählen",
+    "Choisir la langue de l’application"
+  ],
+  "LINGUA DELL’APP": [
+    "APP LANGUAGE",
+    "IDIOMA DE LA APLICACIÓN",
+    "APP-SPRACHE",
+    "LANGUE DE L’APPLICATION"
+  ],
+  "Interfaccia e parole.": [
+    "Interface and words.",
+    "Interfaz y palabras.",
+    "Oberfläche und Wörter.",
+    "Interface et mots."
+  ],
+  "La scelta viene salvata su questo telefono. Le nuove partite useranno le parole nella lingua di chi ospita; una partita già creata mantiene il suo mazzo.": [
+    "Your choice is saved on this phone. New games use the host’s language; existing games keep their deck.",
+    "La elección se guarda en este teléfono. Las partidas nuevas usan el idioma del anfitrión; las existentes conservan su mazo.",
+    "Die Auswahl wird hier gespeichert. Neue Spiele nutzen die Sprache des Hosts; bestehende Spiele behalten ihr Wortdeck.",
+    "Votre choix est enregistré ici. Les nouvelles parties utilisent la langue de l’hôte ; les parties existantes conservent leur jeu de mots."
+  ],
+  "Selezionata": ["Selected", "Seleccionado", "Ausgewählt", "Sélectionnée"],
+  "Lingua delle parole: {0}": [
+    "Word language: {0}",
+    "Idioma de las palabras: {0}",
+    "Wortsprache: {0}",
+    "Langue des mots : {0}"
+  ],
+  "Lingua non valida": [
+    "Invalid language",
+    "Idioma no válido",
+    "Ungültige Sprache",
+    "Langue non valide"
+  ],
+  "Squadra {0}{1}, {2} agenti rimasti{3}": [
+    "{0} team{1}, {2} agents left{3}",
+    "Equipo {0}{1}, quedan {2} agentes{3}",
+    "Team {0}{1}, {2} Agenten übrig{3}",
+    "Équipe {0}{1}, {2} agents restants{3}"
+  ],
+  ", la tua squadra": [", your team", ", tu equipo", ", dein Team", ", votre équipe"],
+  ", turno attivo": [", active turn", ", turno activo", ", aktiver Zug", ", tour actif"],
+  "agenti da trovare": [
+    "agents to find",
+    "agentes por encontrar",
+    "Agenten zu finden",
+    "agents à trouver"
+  ],
+  " · turno attivo": [" · active turn", " · turno activo", " · aktiver Zug", " · tour actif"],
+  "scoperta": ["revealed", "revelada", "aufgedeckt", "révélée"],
+  "coperta": ["hidden", "oculta", "verdeckt", "cachée"],
+  ", scelta dalla squadra {0}": [
+    ", selected by the {0} team",
+    ", elegida por el equipo {0}",
+    ", von Team {0} gewählt",
+    ", choisie par l’équipe {0}"
+  ],
+  "SCOPERTA{0}": ["REVEALED{0}", "REVELADA{0}", "AUFGEDECKT{0}", "RÉVÉLÉE{0}"],
+  "COPERTA": ["HIDDEN", "OCULTA", "VERDECKT", "CACHÉE"],
+  "È richiesta una build Android dedicata": [
+    "A dedicated Android build is required",
+    "Se requiere una compilación Android dedicada",
+    "Eine spezielle Android-Version ist erforderlich",
+    "Une version Android dédiée est nécessaire"
+  ],
+  "Permessi Bluetooth negati. Abilita Dispositivi vicini (o Posizione fino ad Android 11) nelle impostazioni dell’app.": [
+    "Bluetooth permission denied. Enable Nearby devices (Location through Android 11) in app settings.",
+    "Permiso Bluetooth denegado. Activa Dispositivos cercanos (Ubicación hasta Android 11) en los ajustes de la aplicación.",
+    "Bluetooth-Berechtigung verweigert. Aktiviere Geräte in der Nähe (bis Android 11 Standort) in den App-Einstellungen.",
+    "Autorisation Bluetooth refusée. Activez Appareils à proximité (Localisation jusqu’à Android 11) dans les paramètres de l’application."
+  ],
+  "Sei stato rimosso dalla stanza": [
+    "You were removed from the room",
+    "Te han eliminado de la sala",
+    "Du wurdest aus dem Raum entfernt",
+    "Vous avez été retiré de la salle"
+  ],
+  "Apertura stanza…": [
+    "Opening room…",
+    "Abriendo sala…",
+    "Raum wird geöffnet…",
+    "Ouverture de la salle…"
+  ],
+  "Nessuna stanza salvata": [
+    "No saved room",
+    "No hay sala guardada",
+    "Kein gespeicherter Raum",
+    "Aucune salle enregistrée"
+  ],
+  "Salvataggio incompatibile": [
+    "Incompatible save",
+    "Guardado incompatible",
+    "Inkompatibler Spielstand",
+    "Sauvegarde incompatible"
+  ],
+  "Il trasporto locale richiede Unico dispositivo": [
+    "Local play requires Single device",
+    "El modo local requiere Dispositivo único",
+    "Lokales Spielen erfordert Einzelgerät",
+    "Le mode local nécessite Appareil unique"
+  ],
+  "Unico dispositivo · partita sul telefono": [
+    "Single device · game on this phone",
+    "Dispositivo único · partida en el teléfono",
+    "Einzelgerät · Spiel auf diesem Telefon",
+    "Appareil unique · partie sur le téléphone"
+  ],
+  "Stanza aperta · in attesa di partecipanti": [
+    "Room open · waiting for players",
+    "Sala abierta · esperando participantes",
+    "Raum offen · warte auf Teilnehmer",
+    "Salle ouverte · en attente de participants"
+  ],
+  "Unico dispositivo avviato · nessun trasporto di rete": [
+    "Single device started · no network transport",
+    "Dispositivo único iniciado · sin transporte de red",
+    "Einzelgerät gestartet · kein Netzwerktransport",
+    "Appareil unique démarré · aucun transport réseau"
+  ],
+  "Host avviato · trasporto nativo": [
+    "Host started · native transport",
+    "Anfitrión iniciado · transporte nativo",
+    "Host gestartet · nativer Transport",
+    "Hôte démarré · transport natif"
+  ],
+  "Hosting sospeso · premi Riprendi": [
+    "Hosting paused · tap Reconnect",
+    "Alojamiento pausado · pulsa Reconectar",
+    "Hosting angehalten · Neu verbinden wählen",
+    "Hébergement suspendu · appuyez sur Se reconnecter"
+  ],
+  "Nessuna sessione salvata": [
+    "No saved session",
+    "No hay sesión guardada",
+    "Keine gespeicherte Sitzung",
+    "Aucune session enregistrée"
+  ],
+  "Sessione incompatibile": [
+    "Incompatible session",
+    "Sesión incompatible",
+    "Inkompatible Sitzung",
+    "Session incompatible"
+  ],
+  "Connessione all’host…": [
+    "Connecting to host…",
+    "Conectando al anfitrión…",
+    "Verbindung zum Host…",
+    "Connexion à l’hôte…"
+  ],
+  "Recupero della sessione…": [
+    "Recovering session…",
+    "Recuperando sesión…",
+    "Sitzung wird wiederhergestellt…",
+    "Récupération de la session…"
+  ],
+  "Attendi l’approvazione dell’host": [
+    "Wait for host approval",
+    "Espera la aprobación del anfitrión",
+    "Warte auf Bestätigung des Hosts",
+    "Attendez l’approbation de l’hôte"
+  ],
+  "Host non raggiungibile · riconnessione automatica": [
+    "Host unreachable · reconnecting automatically",
+    "Anfitrión inaccesible · reconexión automática",
+    "Host nicht erreichbar · automatische Neuverbindung",
+    "Hôte inaccessible · reconnexion automatique"
+  ],
+  "Host assente": ["Host unavailable", "Anfitrión ausente", "Host nicht verfügbar", "Hôte absent"],
+  "Il ponte richiede un partecipante Bluetooth approvato e collegato direttamente all’host": [
+    "A bridge requires an approved Bluetooth player directly connected to the host",
+    "El puente requiere un participante Bluetooth aprobado y conectado directamente al anfitrión",
+    "Eine Brücke benötigt einen bestätigten Bluetooth-Teilnehmer direkt am Host",
+    "Le relais nécessite un participant Bluetooth approuvé et connecté directement à l’hôte"
+  ],
+  "Solo l’host può approvare": [
+    "Only the host can approve",
+    "Solo el anfitrión puede aprobar",
+    "Nur der Host kann bestätigen",
+    "Seul l’hôte peut approuver"
+  ],
+  "Richiesta scaduta": [
+    "Request expired",
+    "Solicitud caducada",
+    "Anfrage abgelaufen",
+    "Demande expirée"
+  ],
+  "Ingresso rifiutato dall’host": [
+    "Host rejected the request",
+    "El anfitrión rechazó la entrada",
+    "Host hat den Beitritt abgelehnt",
+    "Demande refusée par l’hôte"
+  ],
+  "Partecipante approvato": [
+    "Player approved",
+    "Participante aprobado",
+    "Teilnehmer bestätigt",
+    "Participant approuvé"
+  ],
+  "Ingresso non riuscito": [
+    "Could not join",
+    "No se pudo entrar",
+    "Beitritt fehlgeschlagen",
+    "Échec de la connexion"
+  ],
+  "Attendi la sincronizzazione del comando precedente": [
+    "Wait for the previous command to synchronise",
+    "Espera la sincronización del comando anterior",
+    "Warte auf die Synchronisierung des vorherigen Befehls",
+    "Attendez la synchronisation de la commande précédente"
+  ],
+  "Riprendi la connessione": [
+    "Reconnect first",
+    "Reconecta primero",
+    "Zuerst neu verbinden",
+    "Reconnectez-vous d’abord"
+  ],
+  "Sincronizzazione in corso: attendi lo stato aggiornato": [
+    "Synchronising: wait for the current state",
+    "Sincronizando: espera al estado actualizado",
+    "Synchronisierung läuft: Warte auf den aktuellen Stand",
+    "Synchronisation : attendez l’état actuel"
+  ],
+  "Comando rifiutato": [
+    "Command rejected",
+    "Comando rechazado",
+    "Befehl abgelehnt",
+    "Commande refusée"
+  ],
+  "ECO LOCALE: {0}": ["LOCAL ECHO: {0}", "ECO LOCAL: {0}", "LOKALES ECHO: {0}", "ÉCHO LOCAL : {0}"],
+  "Connessione assente. Attendi l’host": [
+    "No connection. Wait for the host",
+    "Sin conexión. Espera al anfitrión",
+    "Keine Verbindung. Warte auf den Host",
+    "Aucune connexion. Attendez l’hôte"
+  ],
+  "Collegamento sospeso": [
+    "Connection paused",
+    "Conexión suspendida",
+    "Verbindung angehalten",
+    "Connexion suspendue"
+  ],
+  "Errore collegamento": [
+    "Connection error",
+    "Error de conexión",
+    "Verbindungsfehler",
+    "Erreur de connexion"
+  ],
+  "Socket collegato": [
+    "Socket connected",
+    "Socket conectado",
+    "Socket verbunden",
+    "Socket connecté"
+  ],
+  "Versioni incompatibili · installate la stessa versione": [
+    "Incompatible versions · install the same version",
+    "Versiones incompatibles · instalad la misma versión",
+    "Inkompatible Versionen · gleiche Version installieren",
+    "Versions incompatibles · installez la même version"
+  ],
+  "Host assente · partita in attesa": [
+    "Host unavailable · game waiting",
+    "Anfitrión ausente · partida en espera",
+    "Host nicht verfügbar · Spiel wartet",
+    "Hôte absent · partie en attente"
+  ],
+  "Socket scollegato": [
+    "Socket disconnected",
+    "Socket desconectado",
+    "Socket getrennt",
+    "Socket déconnecté"
+  ],
+  "Collegamento rifiutato: versione app diversa": [
+    "Connection rejected: different app version",
+    "Conexión rechazada: versión diferente",
+    "Verbindung abgelehnt: andere App-Version",
+    "Connexion refusée : version différente"
+  ],
+  "Protocollo o identità del ponte non validi: collegamento chiuso": [
+    "Invalid bridge protocol or identity: connection closed",
+    "Protocolo o identidad del puente no válidos: conexión cerrada",
+    "Ungültiges Brückenprotokoll oder Identität: Verbindung geschlossen",
+    "Protocole ou identité du relais non valide : connexion fermée"
+  ],
+  "Ingresso già richiesto": [
+    "Join request already sent",
+    "Entrada ya solicitada",
+    "Beitritt bereits angefragt",
+    "Demande déjà envoyée"
+  ],
+  "Sessione recuperata": [
+    "Session recovered",
+    "Sesión recuperada",
+    "Sitzung wiederhergestellt",
+    "Session récupérée"
+  ],
+  "Codice stanza errato": [
+    "Incorrect room code",
+    "Código de sala incorrecto",
+    "Falscher Raumcode",
+    "Code de salle incorrect"
+  ],
+  "Partita iniziata: possono rientrare solo i partecipanti già approvati": [
+    "Game started: only approved players can rejoin",
+    "Partida iniciada: solo pueden volver los participantes aprobados",
+    "Spiel läuft: Nur bestätigte Teilnehmer können zurückkehren",
+    "Partie commencée : seuls les participants approuvés peuvent revenir"
+  ],
+  "Attendi l’approvazione": [
+    "Waiting for approval",
+    "Esperando aprobación",
+    "Warte auf Bestätigung",
+    "En attente d’approbation"
+  ],
+  "ECO RICEVUTO: {0}": [
+    "ECHO RECEIVED: {0}",
+    "ECO RECIBIDO: {0}",
+    "ECHO EMPFANGEN: {0}",
+    "ÉCHO REÇU : {0}"
+  ],
+  "Richiesta rifiutata": [
+    "Request rejected",
+    "Solicitud rechazada",
+    "Anfrage abgelehnt",
+    "Demande refusée"
+  ],
+  "Indirizzo mancante": [
+    "Missing address",
+    "Falta la dirección",
+    "Adresse fehlt",
+    "Adresse manquante"
+  ],
+  "Risposta host non valida": [
+    "Invalid host response",
+    "Respuesta del anfitrión no válida",
+    "Ungültige Host-Antwort",
+    "Réponse de l’hôte non valide"
+  ],
+  "Sessione diversa": [
+    "Different session",
+    "Sesión diferente",
+    "Andere Sitzung",
+    "Session différente"
+  ],
+  "Sessione sincronizzata": [
+    "Session synchronised",
+    "Sesión sincronizada",
+    "Sitzung synchronisiert",
+    "Session synchronisée"
+  ],
+  "Ingresso rifiutato · torna alla Home per riprovare": [
+    "Join rejected · return home to retry",
+    "Entrada rechazada · vuelve al inicio para reintentar",
+    "Beitritt abgelehnt · auf der Startseite erneut versuchen",
+    "Connexion refusée · revenez à l’accueil pour réessayer"
+  ],
+  "Richiesta inviata · attendi l’host": [
+    "Request sent · waiting for host",
+    "Solicitud enviada · esperando al anfitrión",
+    "Anfrage gesendet · warte auf Host",
+    "Demande envoyée · en attente de l’hôte"
+  ],
+  "ECO DALL’HOST: {0}": [
+    "ECHO FROM HOST: {0}",
+    "ECO DEL ANFITRIÓN: {0}",
+    "ECHO VOM HOST: {0}",
+    "ÉCHO DE L’HÔTE : {0}"
+  ],
+  "Conferma non ricevuta: recupero lo stato. Controlla la partita prima di ripetere l’azione.": [
+    "No acknowledgement: recovering state. Check the game before repeating the action.",
+    "Sin confirmación: recuperando el estado. Comprueba la partida antes de repetir la acción.",
+    "Keine Bestätigung: Zustand wird geladen. Prüfe das Spiel vor der nächsten Aktion.",
+    "Confirmation absente : récupération de l’état. Vérifiez la partie avant de répéter l’action."
+  ],
+  "Partita in pausa · ripresa al ritorno": [
+    "Game paused · resumes on return",
+    "Partida en pausa · se reanuda al volver",
+    "Spiel pausiert · Fortsetzung bei Rückkehr",
+    "Partie en pause · reprise au retour"
+  ],
+  "Host sospeso · ripresa al ritorno": [
+    "Host paused · resumes on return",
+    "Anfitrión pausado · se reanuda al volver",
+    "Host pausiert · Fortsetzung bei Rückkehr",
+    "Hôte suspendu · reprise au retour"
+  ],
+  "In background · sincronizzazione automatica al rientro": [
+    "In background · synchronises on return",
+    "En segundo plano · sincronización al volver",
+    "Im Hintergrund · Synchronisierung bei Rückkehr",
+    "En arrière-plan · synchronisation au retour"
+  ],
+  "Host disponibile · attendo i partecipanti": [
+    "Host available · waiting for players",
+    "Anfitrión disponible · esperando participantes",
+    "Host verfügbar · warte auf Teilnehmer",
+    "Hôte disponible · en attente de participants"
+  ],
+  "La sessione appartiene a un’altra partita": [
+    "The session belongs to another game",
+    "La sesión pertenece a otra partida",
+    "Die Sitzung gehört zu einem anderen Spiel",
+    "La session appartient à une autre partie"
+  ],
+  "Credenziale non valida o partecipante rimosso": [
+    "Invalid credentials or removed player",
+    "Credenciales no válidas o participante eliminado",
+    "Ungültige Zugangsdaten oder Teilnehmer entfernt",
+    "Identifiants non valides ou participant retiré"
+  ],
+  "Unico dispositivo usa un solo telefono e non ammette altri ingressi": [
+    "Single device uses one phone and cannot accept other players",
+    "Dispositivo único usa un teléfono y no admite otras entradas",
+    "Einzelgerät nutzt nur ein Telefon und erlaubt keine weiteren Beitritte",
+    "Appareil unique utilise un téléphone et n’accepte pas d’autres connexions"
+  ],
+  "La partita è già iniziata": [
+    "The game has already started",
+    "La partida ya ha empezado",
+    "Das Spiel hat bereits begonnen",
+    "La partie a déjà commencé"
+  ],
+  "Stanza piena (massimo {0} dispositivi in questa modalità)": [
+    "Room full (maximum {0} devices in this mode)",
+    "Sala llena (máximo {0} dispositivos en este modo)",
+    "Raum voll (höchstens {0} Geräte in diesem Modus)",
+    "Salle complète (maximum {0} appareils dans ce mode)"
+  ],
+  "Sessione non valida": [
+    "Invalid session",
+    "Sesión no válida",
+    "Ungültige Sitzung",
+    "Session non valide"
+  ],
+  "Partita diversa: comando rifiutato": [
+    "Different game: command rejected",
+    "Partida diferente: comando rechazado",
+    "Anderes Spiel: Befehl abgelehnt",
+    "Partie différente : commande refusée"
+  ],
+  "Stato aggiornato da un altro giocatore. Rivedi il tabellone e riprova.": [
+    "Another player updated the state. Review the board and try again.",
+    "Otro jugador actualizó el estado. Revisa el tablero y vuelve a intentarlo.",
+    "Ein anderer Spieler hat den Stand geändert. Prüfe das Spielfeld und versuche es erneut.",
+    "Un autre joueur a modifié l’état. Vérifiez le plateau et réessayez."
+  ],
+  "Casualità non valida": [
+    "Invalid random value",
+    "Valor aleatorio no válido",
+    "Ungültiger Zufallswert",
+    "Valeur aléatoire non valide"
+  ],
+  "Modalità partita non valida": [
+    "Invalid game format",
+    "Modo de partida no válido",
+    "Ungültiger Spielmodus",
+    "Format de partie non valide"
+  ],
+  "Durata turno non valida": [
+    "Invalid turn duration",
+    "Duración de turno no válida",
+    "Ungültige Zugdauer",
+    "Durée de tour non valide"
+  ],
+  "Turno squadra {0}.": [
+    "{0} team’s turn.",
+    "Turno del equipo {0}.",
+    "Team {0} ist dran.",
+    "Tour de l’équipe {0}."
+  ],
+  "Tempo scaduto per la squadra {0}.": [
+    "Time expired for the {0} team.",
+    "Se acabó el tiempo del equipo {0}.",
+    "Zeit für Team {0} abgelaufen.",
+    "Temps écoulé pour l’équipe {0}."
+  ],
+  "Partecipante non presente": [
+    "Player not present",
+    "Participante ausente",
+    "Teilnehmer nicht anwesend",
+    "Participant absent"
+  ],
+  "Sessione scollegata": [
+    "Session disconnected",
+    "Sesión desconectada",
+    "Sitzung getrennt",
+    "Session déconnectée"
+  ],
+  "Solo l’host può farlo": [
+    "Only the host can do this",
+    "Solo el anfitrión puede hacerlo",
+    "Nur der Host darf das",
+    "Seul l’hôte peut le faire"
+  ],
+  "Squadre e ruoli sono bloccati durante la partita": [
+    "Teams and roles are locked during play",
+    "Equipos y roles bloqueados durante la partida",
+    "Teams und Rollen sind während des Spiels gesperrt",
+    "Équipes et rôles verrouillés pendant la partie"
+  ],
+  "Host non disponibile": [
+    "Host unavailable",
+    "Anfitrión no disponible",
+    "Host nicht verfügbar",
+    "Hôte indisponible"
+  ],
+  "Tempo del turno scaduto": [
+    "Turn time expired",
+    "Tiempo del turno agotado",
+    "Zugzeit abgelaufen",
+    "Temps du tour écoulé"
+  ],
+  "Azione non consentita nel tuo ruolo o turno": [
+    "Action not allowed for your role or turn",
+    "Acción no permitida en tu rol o turno",
+    "Aktion in deiner Rolle oder deinem Zug nicht erlaubt",
+    "Action interdite pour votre rôle ou votre tour"
+  ],
+  "Conferma il passaggio del dispositivo alla squadra di turno": [
+    "Confirm passing the device to the active team",
+    "Confirma el paso del dispositivo al equipo activo",
+    "Bestätige die Übergabe an das aktive Team",
+    "Confirmez le passage à l’équipe active"
+  ],
+  "Nella modalità Unico dispositivo squadra e ruolo seguono automaticamente la fase": [
+    "In Single device, team and role follow the phase automatically",
+    "En Dispositivo único, equipo y rol siguen la fase automáticamente",
+    "Im Einzelgerät folgen Team und Rolle automatisch der Phase",
+    "En Appareil unique, équipe et rôle suivent automatiquement la phase"
+  ],
+  "Squadra non valida": [
+    "Invalid team",
+    "Equipo no válido",
+    "Ungültiges Team",
+    "Équipe non valide"
+  ],
+  "Ruolo non valido": ["Invalid role", "Rol no válido", "Ungültige Rolle", "Rôle non valide"],
+  "Suggeritore già presente": [
+    "Spymaster spot already taken",
+    "Puesto de jefe de espías ocupado",
+    "Geheimdienstchef bereits vorhanden",
+    "Place de maître-espion déjà occupée"
+  ],
+  "In questa modalità i dispositivi seguono la squadra di turno": [
+    "In this mode, devices follow the active team",
+    "En este modo, los dispositivos siguen al equipo activo",
+    "In diesem Modus folgen Geräte dem aktiven Team",
+    "Dans ce mode, les appareils suivent l’équipe active"
+  ],
+  "Sono ammessi al massimo due suggeritori": [
+    "At most two spymasters are allowed",
+    "Se permiten como máximo dos jefes de espías",
+    "Höchstens zwei Geheimdienstchefs erlaubt",
+    "Deux maîtres-espions au maximum"
+  ],
+  "Conferma che il telefono è pronto per avviare Unico dispositivo": [
+    "Confirm the phone is ready to start Single device",
+    "Confirma que el teléfono está preparado para Dispositivo único",
+    "Bestätige die Bereitschaft für Einzelgerät",
+    "Confirmez que le téléphone est prêt pour Appareil unique"
+  ],
+  "Servono almeno 2 dispositivi pronti e connessi: uno per i suggeritori e almeno uno per i decifratori": [
+    "At least 2 ready, connected devices: one for spymasters and at least one for decoders",
+    "Se necesitan al menos 2 dispositivos preparados y conectados: uno para jefes y otro para descifradores",
+    "Mindestens 2 bereite, verbundene Geräte: eines für Geheimdienstchefs und eines für Entschlüssler",
+    "Au moins 2 appareils prêts et connectés : un pour les maîtres-espions et un pour les décodeurs"
+  ],
+  "Servono almeno 4 persone pronte e connesse, un suggeritore e almeno un decifratore per squadra": [
+    "At least 4 ready, connected players, one spymaster and at least one decoder per team",
+    "Se necesitan al menos 4 personas preparadas y conectadas, un jefe y un descifrador por equipo",
+    "Mindestens 4 bereite, verbundene Personen, je ein Geheimdienstchef und ein Entschlüssler pro Team",
+    "Au moins 4 personnes prêtes et connectées, un maître-espion et un décodeur par équipe"
+  ],
+  "Missione {0}. Inizia la squadra {1}.": [
+    "Mission {0}. The {1} team starts.",
+    "Misión {0}. Empieza el equipo {1}.",
+    "Mission {0}. Team {1} beginnt.",
+    "Mission {0}. L’équipe {1} commence."
+  ],
+  "Nessun passaggio del dispositivo da confermare": [
+    "No device handover to confirm",
+    "No hay paso de dispositivo que confirmar",
+    "Keine Geräteübergabe zu bestätigen",
+    "Aucun passage d’appareil à confirmer"
+  ],
+  "Il turno è cambiato: passa il telefono alla squadra indicata": [
+    "Turn changed: pass the phone to the indicated team",
+    "Cambió el turno: pasa el teléfono al equipo indicado",
+    "Zug gewechselt: Telefon an das angezeigte Team geben",
+    "Le tour a changé : passez le téléphone à l’équipe indiquée"
+  ],
+  "La fase è cambiata: passa il telefono al ruolo indicato": [
+    "Phase changed: pass the phone to the indicated role",
+    "Cambió la fase: pasa el teléfono al rol indicado",
+    "Phase gewechselt: Telefon an die angezeigte Rolle geben",
+    "La phase a changé : passez le téléphone au rôle indiqué"
+  ],
+  "Usa una parola di 2–32 lettere; apostrofi e trattini solo interni": [
+    "Use one word of 2–32 letters; apostrophes and hyphens only inside",
+    "Usa una palabra de 2–32 letras; apóstrofos y guiones solo internos",
+    "Nutze ein Wort mit 2–32 Buchstaben; Apostrophe und Bindestriche nur innen",
+    "Utilisez un mot de 2 à 32 lettres ; apostrophes et traits d’union internes uniquement"
+  ],
+  "L’indizio è una parola ancora coperta": [
+    "The clue is an unrevealed board word",
+    "La pista es una palabra aún oculta",
+    "Der Hinweis ist ein verdecktes Spielfeldwort",
+    "L’indice est un mot encore caché du plateau"
+  ],
+  "Scegli un numero da 0 a 9 o infinito": [
+    "Choose a number from 0 to 9 or infinity",
+    "Elige un número de 0 a 9 o infinito",
+    "Wähle eine Zahl von 0 bis 9 oder unendlich",
+    "Choisissez un nombre de 0 à 9 ou l’infini"
+  ],
+  "Carta non valida": ["Invalid card", "Carta no válida", "Ungültige Karte", "Carte non valide"],
+  "Carta già scoperta": [
+    "Card already revealed",
+    "Carta ya revelada",
+    "Karte bereits aufgedeckt",
+    "Carte déjà révélée"
+  ],
+  "Assassino: perde la squadra che lo ha scelto.": [
+    "Assassin: the selecting team loses.",
+    "Asesino: pierde el equipo que lo eligió.",
+    "Attentäter: Das auswählende Team verliert.",
+    "Assassin : l’équipe qui l’a choisi perd."
+  ],
+  "Tutti gli agenti della squadra vincente sono stati scoperti.": [
+    "All the winning team’s agents have been revealed.",
+    "Se han revelado todos los agentes del equipo ganador.",
+    "Alle Agenten des siegreichen Teams wurden aufgedeckt.",
+    "Tous les agents de l’équipe gagnante ont été révélés."
+  ],
+  "Effettua almeno un tentativo prima di passare": [
+    "Make at least one guess before passing",
+    "Realiza al menos un intento antes de pasar",
+    "Mache mindestens einen Versuch vor dem Passen",
+    "Faites au moins un essai avant de passer"
+  ],
+  "Nessuna partita da annullare": [
+    "No game to cancel",
+    "No hay partida que cancelar",
+    "Kein Spiel zum Abbrechen",
+    "Aucune partie à annuler"
+  ],
+  "Partita annullata dall’host.": [
+    "Game cancelled by the host.",
+    "Partida cancelada por el anfitrión.",
+    "Spiel vom Host abgebrochen.",
+    "Partie annulée par l’hôte."
+  ],
+  "Concludi o annulla prima la partita": [
+    "Finish or cancel the game first",
+    "Termina o cancela primero la partida",
+    "Spiel zuerst beenden oder abbrechen",
+    "Terminez ou annulez d’abord la partie"
+  ],
+  "L’host non può rimuovere sé stesso": [
+    "The host cannot remove themselves",
+    "El anfitrión no puede eliminarse",
+    "Der Host kann sich nicht selbst entfernen",
+    "L’hôte ne peut pas se retirer lui-même"
+  ],
+  "Comando non riconosciuto": [
+    "Unrecognised command",
+    "Comando no reconocido",
+    "Unbekannter Befehl",
+    "Commande non reconnue"
+  ],
+  "precedente o non riconosciuta": [
+    "older or unrecognised",
+    "anterior o no reconocida",
+    "älter oder unbekannt",
+    "ancienne ou non reconnue"
+  ],
+  "Versioni app incompatibili: questo dispositivo usa {0}, l’altro {1}. Installate la stessa versione di Open Codenames su tutti i telefoni.": [
+    "Incompatible app versions: this device uses {0}, the other {1}. Install the same Open Codenames version on every phone.",
+    "Versiones incompatibles: este dispositivo usa {0}, el otro {1}. Instalad la misma versión de Open Codenames en todos los teléfonos.",
+    "Inkompatible App-Versionen: Dieses Gerät nutzt {0}, das andere {1}. Installiert dieselbe Open-Codenames-Version auf allen Telefonen.",
+    "Versions incompatibles : cet appareil utilise {0}, l’autre {1}. Installez la même version d’Open Codenames sur tous les téléphones."
+  ],
+  "Messaggio non valido": [
+    "Invalid message",
+    "Mensaje no válido",
+    "Ungültige Nachricht",
+    "Message non valide"
+  ],
+  "Testo non valido": ["Invalid text", "Texto no válido", "Ungültiger Text", "Texte non valide"],
+  "Identificatore non valido": [
+    "Invalid identifier",
+    "Identificador no válido",
+    "Ungültige Kennung",
+    "Identifiant non valide"
+  ],
+  "Nickname: 1–20 lettere o numeri, spazi, punto, trattino o underscore": [
+    "Nickname: 1–20 letters or digits, spaces, dots, hyphens or underscores",
+    "Apodo: 1–20 letras o números, espacios, puntos, guiones o guiones bajos",
+    "Spitzname: 1–20 Buchstaben oder Ziffern, Leerzeichen, Punkt, Binde- oder Unterstrich",
+    "Pseudo : 1 à 20 lettres ou chiffres, espaces, points, tirets ou tirets bas"
+  ],
+  "Messaggio troppo grande": [
+    "Message too large",
+    "Mensaje demasiado grande",
+    "Nachricht zu groß",
+    "Message trop volumineux"
+  ],
+  "Versione protocollo incompatibile": [
+    "Incompatible protocol version",
+    "Versión de protocolo incompatible",
+    "Inkompatible Protokollversion",
+    "Version du protocole incompatible"
+  ],
+  "Richiesta ingresso non valida": [
+    "Invalid join request",
+    "Solicitud de entrada no válida",
+    "Ungültige Beitrittsanfrage",
+    "Demande de connexion non valide"
+  ],
+  "Codice stanza non valido": [
+    "Invalid room code",
+    "Código de sala no válido",
+    "Ungültiger Raumcode",
+    "Code de salle non valide"
+  ],
+  "Comando non valido": [
+    "Invalid command",
+    "Comando no válido",
+    "Ungültiger Befehl",
+    "Commande non valide"
+  ],
+  "Versione stato non valida": [
+    "Invalid state version",
+    "Versión de estado no válida",
+    "Ungültige Zustandsversion",
+    "Version de l’état non valide"
+  ],
+  "Disponibilità non valida": [
+    "Invalid readiness",
+    "Disponibilidad no válida",
+    "Ungültige Bereitschaft",
+    "État de préparation non valide"
+  ],
+  "Numero indizio non valido": [
+    "Invalid clue number",
+    "Número de pista no válido",
+    "Ungültige Hinweiszahl",
+    "Nombre de l’indice non valide"
+  ],
+  "Turno del passaggio non valido": [
+    "Invalid handover turn",
+    "Turno de paso no válido",
+    "Ungültiger Übergabezug",
+    "Tour du passage non valide"
+  ],
+  "Fase del passaggio non valida": [
+    "Invalid handover phase",
+    "Fase de paso no válida",
+    "Ungültige Übergabephase",
+    "Phase du passage non valide"
+  ],
+  "Comando sconosciuto": [
+    "Unknown command",
+    "Comando desconocido",
+    "Unbekannter Befehl",
+    "Commande inconnue"
+  ],
+  "Dispositivo Bluetooth": [
+    "Bluetooth device",
+    "Dispositivo Bluetooth",
+    "Bluetooth-Gerät",
+    "Appareil Bluetooth"
+  ],
+  "Impronta host non disponibile": [
+    "Host fingerprint unavailable",
+    "Huella del anfitrión no disponible",
+    "Host-Fingerabdruck nicht verfügbar",
+    "Empreinte de l’hôte indisponible"
+  ],
+  "Il ponte richiede un collegamento diretto all’host": [
+    "The bridge requires a direct host connection",
+    "El puente requiere conexión directa al anfitrión",
+    "Die Brücke benötigt eine direkte Host-Verbindung",
+    "Le relais nécessite une connexion directe à l’hôte"
+  ],
+  "Tunnel del partecipante non pronto": [
+    "Player tunnel not ready",
+    "Túnel del participante no preparado",
+    "Teilnehmertunnel nicht bereit",
+    "Tunnel du participant non prêt"
+  ],
+  "Tunnel non disponibile": [
+    "Tunnel unavailable",
+    "Túnel no disponible",
+    "Tunnel nicht verfügbar",
+    "Tunnel indisponible"
+  ],
+  "Sono ammessi solo messaggi cifrati attraverso il ponte": [
+    "Only encrypted messages may cross the bridge",
+    "Solo se admiten mensajes cifrados por el puente",
+    "Nur verschlüsselte Nachrichten über die Brücke erlaubt",
+    "Seuls les messages chiffrés peuvent traverser le relais"
+  ],
+  "Tunnel già aperto": [
+    "Tunnel already open",
+    "Túnel ya abierto",
+    "Tunnel bereits offen",
+    "Tunnel déjà ouvert"
+  ],
+  "Prima apri il tunnel cifrato": [
+    "Open the encrypted tunnel first",
+    "Abre primero el túnel cifrado",
+    "Zuerst verschlüsselten Tunnel öffnen",
+    "Ouvrez d’abord le tunnel chiffré"
+  ],
+  "Solo un partecipante approvato può fare da ponte": [
+    "Only an approved player may be a bridge",
+    "Solo un participante aprobado puede actuar como puente",
+    "Nur bestätigte Teilnehmer dürfen eine Brücke betreiben",
+    "Seul un participant approuvé peut servir de relais"
+  ],
+  "Percorso del ponte già aperto": [
+    "Bridge route already open",
+    "Ruta del puente ya abierta",
+    "Brückenpfad bereits offen",
+    "Route du relais déjà ouverte"
+  ],
+  "Ponte pieno": ["Bridge full", "Puente lleno", "Brücke voll", "Relais complet"],
+  "Percorso del ponte sconosciuto": [
+    "Unknown bridge route",
+    "Ruta del puente desconocida",
+    "Unbekannter Brückenpfad",
+    "Route du relais inconnue"
+  ],
+  "Messaggio ponte non valido": [
+    "Invalid bridge message",
+    "Mensaje del puente no válido",
+    "Ungültige Brückennachricht",
+    "Message de relais non valide"
+  ],
+  "Risposta ponte non valida": [
+    "Invalid bridge reply",
+    "Respuesta del puente no válida",
+    "Ungültige Brückenantwort",
+    "Réponse du relais non valide"
+  ],
+  "Identità host già ricevuta": [
+    "Host identity already received",
+    "Identidad del anfitrión ya recibida",
+    "Host-Identität bereits erhalten",
+    "Identité de l’hôte déjà reçue"
+  ],
+  "Identità host cambiata: non inviare credenziali. Verifica il telefono host.": [
+    "Host identity changed: do not send credentials. Verify the host phone.",
+    "Cambió la identidad del anfitrión: no envíes credenciales. Verifica su teléfono.",
+    "Host-Identität geändert: Keine Zugangsdaten senden. Host-Telefon prüfen.",
+    "Identité de l’hôte modifiée : n’envoyez pas d’identifiants. Vérifiez le téléphone hôte."
+  ],
+  "Conferma prima l’impronta dell’host": [
+    "Confirm the host fingerprint first",
+    "Confirma primero la huella del anfitrión",
+    "Zuerst Host-Fingerabdruck bestätigen",
+    "Confirmez d’abord l’empreinte de l’hôte"
+  ],
+  "Percorso ponte non autorizzato": [
+    "Unauthorised bridge route",
+    "Ruta del puente no autorizada",
+    "Nicht autorisierter Brückenpfad",
+    "Route du relais non autorisée"
+  ],
+  "Dati cifrati non validi": [
+    "Invalid encrypted data",
+    "Datos cifrados no válidos",
+    "Ungültige verschlüsselte Daten",
+    "Données chiffrées non valides"
+  ],
+  "Chiave o nonce non validi": [
+    "Invalid key or nonce",
+    "Clave o nonce no válidos",
+    "Ungültiger Schlüssel oder Nonce",
+    "Clé ou nonce non valide"
+  ],
+  "Chiave remota non valida": [
+    "Invalid remote key",
+    "Clave remota no válida",
+    "Ungültiger Fernschlüssel",
+    "Clé distante non valide"
+  ],
+  "Messaggio troppo grande per il ponte": [
+    "Message too large for the bridge",
+    "Mensaje demasiado grande para el puente",
+    "Nachricht zu groß für die Brücke",
+    "Message trop volumineux pour le relais"
+  ],
+  "Pacchetto del ponte non valido": [
+    "Invalid bridge packet",
+    "Paquete del puente no válido",
+    "Ungültiges Brückenpaket",
+    "Paquet du relais non valide"
+  ],
+  "Messaggio cifrato alterato o chiave errata": [
+    "Encrypted message altered or wrong key",
+    "Mensaje cifrado alterado o clave incorrecta",
+    "Verschlüsselte Nachricht verändert oder falscher Schlüssel",
+    "Message chiffré altéré ou clé incorrecte"
+  ],
+  "Messaggio del ponte duplicato, riflesso o fuori sequenza": [
+    "Bridge message duplicated, reflected or out of order",
+    "Mensaje del puente duplicado, reflejado o fuera de secuencia",
+    "Brückennachricht doppelt, gespiegelt oder in falscher Reihenfolge",
+    "Message du relais dupliqué, réfléchi ou désordonné"
+  ],
+  "Bluetooth Classic non disponibile": [
+    "Bluetooth Classic unavailable",
+    "Bluetooth Classic no disponible",
+    "Bluetooth Classic nicht verfügbar",
+    "Bluetooth Classic indisponible"
+  ],
+  "Attiva il Bluetooth nelle impostazioni e riprova": [
+    "Enable Bluetooth in settings and try again",
+    "Activa Bluetooth en los ajustes y reinténtalo",
+    "Bluetooth in den Einstellungen aktivieren und erneut versuchen",
+    "Activez le Bluetooth dans les paramètres et réessayez"
+  ],
+  "Ricerca non avviata. Su Android 11 o precedente attiva anche la posizione.": [
+    "Search did not start. On Android 11 or earlier, enable location too.",
+    "No se inició la búsqueda. En Android 11 o anterior, activa también la ubicación.",
+    "Suche nicht gestartet. Bis Android 11 auch Standort aktivieren.",
+    "Recherche non démarrée. Sur Android 11 ou antérieur, activez aussi la localisation."
+  ],
+  "Impossibile aprire i canali RFCOMM: {0}": [
+    "Could not open RFCOMM channels: {0}",
+    "No se pudieron abrir los canales RFCOMM: {0}",
+    "RFCOMM-Kanäle konnten nicht geöffnet werden: {0}",
+    "Impossible d’ouvrir les canaux RFCOMM : {0}"
+  ],
+  "Prima collegati direttamente all’host": [
+    "First connect directly to the host",
+    "Conéctate primero directamente al anfitrión",
+    "Zuerst direkt mit dem Host verbinden",
+    "Connectez-vous d’abord directement à l’hôte"
+  ],
+  "Ponte già attivo": [
+    "Bridge already active",
+    "Puente ya activo",
+    "Brücke bereits aktiv",
+    "Relais déjà actif"
+  ],
+  "Ponte non supportato dal telefono: {0}": [
+    "Bridge unsupported on this phone: {0}",
+    "Puente no compatible con este teléfono: {0}",
+    "Brücke auf diesem Telefon nicht unterstützt: {0}",
+    "Relais non pris en charge par ce téléphone : {0}"
+  ],
+  "Connessione annullata": [
+    "Connection cancelled",
+    "Conexión cancelada",
+    "Verbindung abgebrochen",
+    "Connexion annulée"
+  ],
+  "Canale occupato": ["Channel busy", "Canal ocupado", "Kanal belegt", "Canal occupé"],
+  "Host non raggiungibile o stanza piena. Verifica associazione e visibilità Bluetooth.": [
+    "Host unreachable or room full. Check pairing and Bluetooth visibility.",
+    "Anfitrión inaccesible o sala llena. Comprueba vinculación y visibilidad Bluetooth.",
+    "Host nicht erreichbar oder Raum voll. Kopplung und Bluetooth-Sichtbarkeit prüfen.",
+    "Hôte inaccessible ou salle complète. Vérifiez l’association et la visibilité Bluetooth."
+  ],
+  "Inserisci un IPv4 locale": [
+    "Enter a local IPv4 address",
+    "Introduce un IPv4 local",
+    "Lokale IPv4-Adresse eingeben",
+    "Saisissez une adresse IPv4 locale"
+  ],
+  "Sono ammessi solo indirizzi di rete privata": [
+    "Only private network addresses are allowed",
+    "Solo se permiten direcciones de red privada",
+    "Nur private Netzwerkadressen erlaubt",
+    "Seules les adresses de réseau privé sont autorisées"
+  ],
+  "Connessione persa": [
+    "Connection lost",
+    "Conexión perdida",
+    "Verbindung verloren",
+    "Connexion perdue"
+  ],
+  "Troppi messaggi": [
+    "Too many messages",
+    "Demasiados mensajes",
+    "Zu viele Nachrichten",
+    "Trop de messages"
+  ],
+  "Bluetooth disattivato. Riattivalo e riprendi la connessione.": [
+    "Bluetooth is off. Enable it and reconnect.",
+    "Bluetooth desactivado. Actívalo y reconecta.",
+    "Bluetooth ausgeschaltet. Aktivieren und neu verbinden.",
+    "Bluetooth désactivé. Réactivez-le et reconnectez-vous."
+  ],
+  "connesso": ["Connected", "Conectado", "Verbunden", "Connecté"],
+  "scollegato": ["Disconnected", "Desconectado", "Getrennt", "Déconnecté"],
+  "pronto": ["Ready", "Preparado", "Bereit", "Prêt"],
+  "I compagni scelgono “Gioca → Bluetooth → Entra in partita”. I dialoghi di associazione sono gestiti da Android.": [
+    "Teammates choose “Play → Bluetooth → Join a game”. Android handles pairing dialogs.",
+    "Los compañeros eligen «Jugar → Bluetooth → Entrar en una partida». Android gestiona la vinculación.",
+    "Mitspieler wählen „Spielen → Bluetooth → Spiel beitreten“. Android übernimmt die Kopplungsdialoge.",
+    "Les coéquipiers choisissent « Jouer → Bluetooth → Rejoindre une partie ». Android gère les fenêtres d’association."
+  ]
+}

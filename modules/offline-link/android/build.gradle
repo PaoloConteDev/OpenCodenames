@@ -1,0 +1,20 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+group = 'org.opencodenames.link'
+version = '0.1.0'
+def sessionLimits = new groovy.json.JsonSlurper().parse(new File(projectDir, '../../../config/session-limits.json'))
+android {
+  namespace 'org.opencodenames.link'
+  buildFeatures { buildConfig true }
+  defaultConfig {
+    minSdkVersion 24
+    versionCode 1
+    versionName '0.1.0'
+    buildConfigField 'int', 'MAX_REMOTE_LAN', (sessionLimits.maxPlayers - 1).toString()
+    buildConfigField 'int', 'MAX_REMOTE_BLUETOOTH', (sessionLimits.bluetoothDirectMaxPlayers - 1).toString()
+    buildConfigField 'int', 'MAX_RELAY_CHILDREN', sessionLimits.relayMaxChildren.toString()
+  }
+}
+dependencies { testImplementation 'junit:junit:4.13.2' }

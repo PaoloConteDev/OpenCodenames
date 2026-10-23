@@ -1,0 +1,7 @@
+node_modules
+android
+dist
+artifacts
+assets/third-party-notices.json
+THIRD_PARTY_NOTICES.txt
+package-lock.json

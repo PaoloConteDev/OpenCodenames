@@ -1,0 +1,5 @@
+{
+  "maxPlayers": 10,
+  "bluetoothDirectMaxPlayers": 8,
+  "relayMaxChildren": 2
+}

@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+coverage/
+/android/
+modules/*/android/build/
+modules/*/android/.gradle/
+*.jks
+*.keystore
+!assets/*
+artifacts/
+*.p12
+*.pfx
+*.pem
+.gradle/
+*.log
+.env*
