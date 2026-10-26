@@ -12,7 +12,7 @@ English | [Italiano](README.it.md)
 
 No accounts, ads, telemetry, cloud services or Internet connection are required to play. Interfaces, rules, fonts and word decks are bundled in the app. Original code and content are MIT-licensed. This project is not affiliated with Czech Games Edition.
 
-**[Download version 1.1.0](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.1.0)** · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/PaoloConteDev/OpenCodenames/issues)
+**[Download version 1.2.0](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.2.0)** · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/PaoloConteDev/OpenCodenames/issues)
 
 <p align="center">
   <img src="docs/screenshots/home.png" width="320" alt="Open Codenames home screen">
@@ -21,7 +21,7 @@ No accounts, ads, telemetry, cloud services or Internet connection are required 
 
 ## Install and play
 
-1. Download `OpenCodenames-1.1.0.apk` from the release page on an Android phone running **Android 7.0 or later**.
+1. Download `OpenCodenames-1.2.0.apk` from the release page on an Android phone running **Android 7.0 or later**.
 2. Allow your browser or file manager to install this APK when Android asks. Open the installed app; no Expo account, Expo Go, Metro server or PC is needed.
 3. Tap **Play**, choose a channel and either host or join a room. For single-device play, go straight to game setup without entering a nickname.
 4. In multiplayer, the host approves joining players. Choose roles, mark everyone ready and start the mission.
@@ -75,7 +75,7 @@ The optional **turn timer** offers 30, 60, 90, 120 or 180 seconds. A turn includ
 
 The 5×5 board contains 9 words for the starting team, 8 for its opponent, 7 neutral words and 1 assassin. Spymasters see the secret map and give a word clue plus a number. Decoders choose cards for their team. Standard clues allow up to N+1 guesses; zero and infinity allow unlimited guesses. A team must attempt at least one guess before ending its turn. Revealing the assassin loses immediately; revealing a team's last word wins for that team, even if its opponent picked it.
 
-Each accepted card reveal highlights the card and shows a brief result notice on connected phones viewing the game. Agent, opponent, neutral and assassin outcomes have distinct local sound and vibration patterns, subject to each phone’s preferences. Feedback is not replayed on reconnect or recovery; Android’s Reduce motion preference keeps the static highlight and notice.
+Each accepted card reveal highlights the card and opens a result pop-up with the word, color, selecting team and outcome. The public board stays visible behind it; tap **Continue** to return to guessing, proceed to the next phone handoff or see the final result. The game timer continues while the pop-up is open. Agent, opponent, neutral and assassin outcomes have distinct local sound and vibration patterns, subject to each phone’s preferences. Feedback is not replayed on reconnect or recovery; Android’s Reduce motion preference disables the pop-up animation.
 
 Revealed cards become darker. A colored dot records the team that selected a card, independently of the card's secret identity. Team and role are also shown in the game header.
 

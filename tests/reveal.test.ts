@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { apply, newGame, project } from '../src/core/engine';
 import type { Color, Player } from '../src/core/model';
-import { revealedCard } from '../src/session/reveal';
+import { revealedCard, revealPresentation } from '../src/session/reveal';
+import { needsHandoff } from '../src/core/model';
 
 function guessing() {
   const players: Player[] = [
@@ -80,5 +81,62 @@ describe('feedback da rivelazioni pubbliche', () => {
     current.board[1]!.revealed = false;
     delete current.board[0]!.selectedBy;
     expect(revealedCard(previous, current)).toBeNull();
+  });
+  it.each(['red', 'neutral', 'blue', 'assassin'] as const)(
+    'mantiene il tabellone prima del passaggio o della fine dopo una carta %s',
+    (color) => {
+      const player: Player = {
+        id: 'phone',
+        nickname: 'Telefono',
+        team: 'red',
+        role: 'guesser',
+        ready: true,
+        connected: true,
+      };
+      let game = newGame('single', player, null, 'single');
+      game = apply(game, player.id, { type: 'start' }, () => 0);
+      game = apply(game, player.id, { type: 'handoff', turn: game.turn, phase: 'clue' }, () => 0);
+      game = apply(game, player.id, { type: 'clue', word: 'Ineffabile', count: 2 }, () => 0);
+      game = apply(game, player.id, { type: 'handoff', turn: game.turn, phase: 'guess' }, () => 0);
+      // A correct card can also end the turn when it uses the last attempt.
+      if (color === 'red') game.remaining = 1;
+      const index = game.board.findIndex((card) => card.color === color);
+      const previous = project(game, player.id);
+      const current = project(
+        apply(game, player.id, { type: 'guess', index }, () => 0),
+        player.id,
+      );
+      const presentation = revealPresentation(previous, current)!;
+      expect(presentation.event.color).toBe(color);
+      expect(presentation.view.phase).toBe('guess');
+      expect(presentation.view.turn).toBe(previous.turn);
+      expect(presentation.view.active).toBe(previous.active);
+      expect(needsHandoff(presentation.view, presentation.view.players[0])).toBe(false);
+      expect(presentation.view.board[index]).toMatchObject({ revealed: true, color });
+      expect(presentation.view.board.filter((card) => card.revealed)).toHaveLength(1);
+      expect(
+        presentation.view.board.filter((card) => !card.revealed).every((card) => !card.color),
+      ).toBe(true);
+      expect(presentation.view.counters).toEqual(current.counters);
+      expect(current.phase === 'finished' || needsHandoff(current, current.players[0])).toBe(true);
+      expect(previous.board[index]?.revealed).toBe(false);
+    },
+  );
+  it('il feedback del suggeritore mostra solo i colori pubblici senza modificare la mappa', () => {
+    const game = guessing();
+    const index = game.board.findIndex((card) => card.color === game.active);
+    const previous = project(game, 'a');
+    const current = project(
+      apply(game, game.active === 'red' ? 'b' : 'd', { type: 'guess', index }, () => 0),
+      'a',
+    );
+    expect(previous.board.every((card) => card.color)).toBe(true);
+    const presentation = revealPresentation(previous, current)!;
+    expect(presentation.view.board[index]?.color).toBe(game.active);
+    expect(
+      presentation.view.board.filter((card) => !card.revealed).every((card) => !card.color),
+    ).toBe(true);
+    expect(previous.board.every((card) => card.color)).toBe(true);
+    expect(revealPresentation(previous, previous)).toBeNull();
   });
 });

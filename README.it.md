@@ -10,7 +10,7 @@ Un progetto open source indipendente di **Gleetch**.
 
 Nessun account, pubblicità, telemetria, servizio cloud o connessione Internet richiesti per giocare. Interfacce, regole, font e mazzi di parole sono inclusi nell’app. Codice e contenuti originali distribuiti sotto licenza MIT. Il progetto non è affiliato a Czech Games Edition.
 
-**Versione 1.1.0:** [scarica l’APK Android dalla release GitHub](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.1.0). L’APK pubblico usa una firma privata diversa dalle precedenti anteprime: per sostituire un’anteprima firmata debug è necessario disinstallarla, perdendo i relativi dati locali. Tutti i dispositivi multiplayer devono usare la stessa versione esatta.
+**Versione 1.2.0:** [scarica l’APK Android dalla release GitHub](https://github.com/PaoloConteDev/OpenCodenames/releases/tag/v1.2.0). L’APK pubblico usa una firma privata diversa dalle precedenti anteprime: per sostituire un’anteprima firmata debug è necessario disinstallarla, perdendo i relativi dati locali. Tutti i dispositivi multiplayer devono usare la stessa versione esatta.
 
 Il multiplayer Bluetooth e il ponte sperimentale dipendono dall’hardware; la verifica su quattro telefoni fisici è ancora da eseguire. I test automatici e l’emulatore non certificano la capacità radio. Consultare [verifiche e limiti](docs/VERIFICATION.md) e [collaudo reale](docs/DEVICE_TEST.md).
 
@@ -126,7 +126,7 @@ Gli ingressi approvati alternano rosso e blu, cominciando dal blu dopo l’host 
 
 Alla creazione l’host può attivare **Tempo per turno** scegliendo 30, 60, 90, 120 o 180 secondi. Di default non c’è limite. Il tempo comprende indizio e scelte; alla scadenza l’host passa automaticamente all’altra squadra, anche senza un tentativo. La scadenza è autorevole sul telefono host e il conto alla rovescia dei client tiene conto della differenza fra gli orologi. Una scelta arrivata dopo la scadenza non viene applicata al nuovo turno. Le stanze salvate prima della versione 0.3.0 restano senza timer. Il registro conserva gli ultimi 100 eventi, per mantenere limitati gli snapshot anche se si lasciano scadere molti turni senza scegliere carte.
 
-Ogni carta rivelata dopo una scelta accettata viene evidenziata e mostra un breve avviso con parola, esito e squadra. I telefoni che seguono la partita ricevono suono e vibrazione diversi per agente trovato, agente avversario, neutrale o assassino, secondo le preferenze locali. Nessun feedback delle vecchie carte al rientro o recupero. Riduci animazioni conserva evidenziazione e avviso senza il movimento.
+Ogni carta rivelata dopo una scelta accettata viene evidenziata e apre un pop-up con parola, colore, squadra che ha scelto ed esito. Il tabellone pubblico resta visibile dietro: **Continua** torna alle scelte, passa al successivo cambio del telefono o mostra il risultato finale. Il timer prosegue mentre il pop-up è aperto. I telefoni che seguono la partita ricevono suono e vibrazione diversi per agente trovato, agente avversario, neutrale o assassino, secondo le preferenze locali. Nessun feedback delle vecchie carte al rientro o recupero. Riduci animazioni disabilita l’animazione del pop-up.
 
 Durante la partita la propria squadra è indicata anche nell’intestazione fissa. Le carte scoperte sono più scure; il pallino indica la squadra che ha scelto la carta, indipendentemente dal colore della parola. Le vecchie carte salvate senza questa informazione restano scoperte senza attribuzioni inventate.
 

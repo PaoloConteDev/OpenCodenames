@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-10-26
+
+- Card reveals now open a centered result pop-up with the word, color, selecting team and outcome, replacing the brief notice.
+- The public board and highlighted card stay visible behind the pop-up. Continue dismisses the result before showing the next phone handoff or final score; correct guesses with attempts remaining return to the same turn.
+- Hidden card colors remain private behind the dialog, including on spymaster devices and when the reveal ends the game. The timer and network synchronization continue while the result is open.
+- Added translated outcome messages in all five languages, accessibility announcements, reduced-motion support and a scrollable layout for larger text.
+- Android version code 22, using the existing public release signing key. Update every multiplayer phone to the same exact version.
+
 ## 1.1.0 — 2026-10-24
 
 - Accepted card reveals now highlight the chosen card and show a brief result notice, including the word and the team that chose it.

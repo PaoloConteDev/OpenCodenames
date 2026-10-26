@@ -137,3 +137,11 @@ Questa lista copre anche i percorsi da completare su telefoni fisici; gli esiti 
 6. In tedesco provare un indizio uguale a una carta ancora coperta cambiando ß in SS: deve essere rifiutato. Verificare anche accenti francesi/spagnoli e trattini interni. Tutti i telefoni multiplayer devono usare esattamente la stessa versione 0.6.0.
 
 Registrare separatamente le prove radio fisiche e quelle su emulatore.
+
+## 14. Pop-up di rivelazione — telefono fisico DA ESEGUIRE
+
+1. In Unico dispositivo scegliere una carta propria, neutrale, avversaria e l’assassino: deve apparire un pop-up centrato con simbolo, parola, colore, squadra che ha scelto ed esito. Suono e vibrazione rispettano le preferenze. Nessuna chiusura automatica.
+2. Quando la scelta cambia turno o conclude la missione, il tabellone pubblico del turno appena giocato resta dietro il pop-up, con la carta appena scoperta evidenziata. Nessun colore riservato deve comparire. **Continua** e il tasto Indietro Android chiudono il pop-up; solo allora appare il passaggio del telefono o il risultato finale. Una carta corretta che esaurisce i tentativi segue lo stesso percorso di cambio turno.
+3. Con carta propria e tentativi rimasti, **Continua** torna alle scelte dello stesso turno. Tocchi fuori dal pop-up non scoprono altre carte e non chiudono il risultato.
+4. Ripetere in Classica e Condivisa, come suggeritore e decifratore. Gli aggiornamenti di rete e il timer proseguono anche con il pop-up aperto; alla chiusura compare lo stato attuale. Cambio app, disconnessione, nuova missione o uscita dalla sessione non devono riproporre vecchi risultati.
+5. Provare tutte le lingue, lettore schermo, movimento ridotto, schermo piccolo/orizzontale e caratteri grandi: parola ed esito restano leggibili scorrendo, **Continua** resta raggiungibile e il contenuto sottostante non riceve il focus mentre il pop-up è aperto.

@@ -1,4 +1,11 @@
-import React, { useContext, useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import React, {
+  useContext,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from 'react';
 import {
   ActivityIndicator,
   AccessibilityInfo,
@@ -7,6 +14,7 @@ import {
   AppState,
   KeyboardAvoidingView,
   Linking,
+  Modal,
   Platform,
   Pressable,
   ScrollView,
@@ -32,7 +40,7 @@ import { CameraView, useCameraPermissions } from 'expo-camera';
 import QRCode from 'react-native-qrcode-svg';
 import Link, { Mode } from './modules/offline-link';
 import { runtime } from './src/session/runtime';
-import type { RevealEvent } from './src/session/reveal';
+import { revealPresentation, type RevealPresentation } from './src/session/reveal';
 import { APP_VERSION } from './src/protocol/messages';
 import {
   Color,
@@ -285,12 +293,25 @@ function GameApp() {
   const [expandedLicense, setExpandedLicense] = useState('');
   const [reduceMotion, setReduceMotion] = useState(true);
   const [foreground, setForeground] = useState(AppState.currentState === 'active');
-  const [revealNotice, setRevealNotice] = useState<RevealEvent | null>(null);
+  const [revealNotice, setRevealNotice] = useState<RevealPresentation | null>(null);
+  const previousView = useRef(state.view);
   const seenReveal = useRef<string | null>(null);
   const entrance = useRef(new Animated.Value(1)).current;
   const scroll = useRef<ScrollView>(null);
   const { width } = useWindowDimensions();
-  const v = state.view,
+  const visiblePresentation =
+    revealNotice &&
+    foreground &&
+    page === 'session' &&
+    state.active &&
+    state.reveal?.id === revealNotice.event.id &&
+    revealNotice.event.gameId === state.view?.id &&
+    revealNotice.event.round === state.view?.round &&
+    state.view?.phase !== 'lobby'
+      ? revealNotice
+      : null;
+  const visibleReveal = visiblePresentation?.event ?? null;
+  const v = visiblePresentation?.view ?? state.view,
     own = v?.players.find((p) => p.id === state.ownId);
   const sessionPages: Page[] = ['session', 'history', 'diagnostics'];
   const busy = working || state.busy;
@@ -340,12 +361,16 @@ function GameApp() {
       if (runtime.snapshot().active) setPage('session');
     }).finally(() => setInitialized(true));
   }, []);
-  useEffect(() => {
+  useLayoutEffect(() => {
+    const presentation = revealPresentation(previousView.current, state.view);
+    previousView.current = state.view;
     const reveal = state.reveal;
     if (!reveal || seenReveal.current === reveal.id) return;
     seenReveal.current = reveal.id;
     if (!initialized || !foreground || page !== 'session') return;
-    setRevealNotice(reveal);
+    // Rendering may batch a reveal with a later timer or presence update.
+    if (!presentation || presentation.event.index !== reveal.index) return;
+    setRevealNotice({ ...presentation, event: reveal });
     if (state.settings.haptic) {
       const patterns = {
         correct: [0, 35],
@@ -356,15 +381,18 @@ function GameApp() {
       Vibration.vibrate(patterns[reveal.kind]);
     }
     Link.revealFeedback(reveal.kind, state.settings.sound);
-  }, [state.reveal, initialized, foreground, page, state.settings.haptic, state.settings.sound]);
+  }, [
+    state.view,
+    state.reveal,
+    initialized,
+    foreground,
+    page,
+    state.settings.haptic,
+    state.settings.sound,
+  ]);
   useEffect(() => {
     if (!foreground || page !== 'session' || !state.active) setRevealNotice(null);
   }, [foreground, page, state.active, v?.id, v?.round]);
-  useEffect(() => {
-    if (!revealNotice) return;
-    const timer = setTimeout(() => setRevealNotice(null), 3600);
-    return () => clearTimeout(timer);
-  }, [revealNotice]);
   useEffect(() => {
     let mounted = true;
     void AccessibilityInfo.isReduceMotionEnabled().then((value) => {
@@ -541,7 +569,7 @@ function GameApp() {
       !v.paused);
   const selectCard = (index: number) => {
     const c = v?.board[index];
-    if (!c || c.revealed || !canGuess || busy) return;
+    if (!c || c.revealed || !canGuess || busy || visibleReveal) return;
     const version = v!.version;
     Alert.alert(
       t('Confermi “{0}”?', c.word.toLocaleUpperCase(language)),
@@ -568,20 +596,28 @@ function GameApp() {
         <Text style={s.copy}>{t('Apertura archivio…')}</Text>
       </View>
     );
-  const visibleReveal =
-    foreground &&
-    page === 'session' &&
-    state.active &&
-    revealNotice?.gameId === v?.id &&
-    revealNotice?.round === v?.round
-      ? revealNotice
-      : null;
   const revealTitles = {
     correct: t('Agente trovato!'),
     opponent: t('Agente avversario'),
     neutral: t('Carta neutrale'),
     assassin: t('Assassino!'),
   };
+  const revealColor = visibleReveal
+    ? visibleReveal.color === 'assassin'
+      ? C.red
+      : C[visibleReveal.color]
+    : C.gold;
+  const revealOutcome =
+    state.view?.phase === 'finished'
+      ? state.view.winner
+        ? t('Vince la squadra {0}.', it[state.view.winner].toLocaleLowerCase(language))
+        : t('Fine missione')
+      : state.view?.turn !== v?.turn
+        ? t(
+            'Turno concluso. Ora tocca alla squadra {0}.',
+            it[state.view!.active].toLocaleLowerCase(language),
+          )
+        : t('Puoi continuare a scegliere oppure terminare il turno.');
   return (
     <MotionContext.Provider value={!reduceMotion && foreground}>
       {state.active && (state.isHost || state.relayEnabled) && <HostAwake />}
@@ -2374,48 +2410,102 @@ function GameApp() {
               </View>
             )}
           </Animated.ScrollView>
+        </KeyboardAvoidingView>
+        <Modal
+          transparent
+          visible={!!visibleReveal}
+          animationType={reduceMotion ? 'none' : 'fade'}
+          onRequestClose={() => setRevealNotice(null)}
+        >
           {visibleReveal && (
-            <View
-              pointerEvents="none"
-              accessible
-              accessibilityRole="alert"
-              accessibilityLiveRegion="polite"
-              accessibilityLabel={`${visibleReveal.word}. ${revealTitles[visibleReveal.kind]}. ${t('Scelta dalla squadra {0}', it[visibleReveal.team])}`}
-              style={[
-                s.revealToast,
-                {
-                  borderColor: visibleReveal.color === 'assassin' ? C.red : C[visibleReveal.color],
-                },
-              ]}
-            >
-              <Text style={[s.tag, { color: C.gold }]}>{revealTitles[visibleReveal.kind]}</Text>
-              <Text style={s.subtitle} numberOfLines={2} adjustsFontSizeToFit>
-                {visibleReveal.word.toLocaleUpperCase(language)}
-              </Text>
-              <Text style={s.tiny}>{t('Scelta dalla squadra {0}', it[visibleReveal.team])}</Text>
+            <View style={s.revealBackdrop}>
+              <View accessibilityViewIsModal style={[s.revealDialog, { borderColor: revealColor }]}>
+                <ScrollView contentContainerStyle={s.revealContent} bounces={false}>
+                  <View
+                    accessible
+                    accessibilityRole="alert"
+                    accessibilityLiveRegion="polite"
+                    accessibilityLabel={`${visibleReveal.word}. ${revealTitles[visibleReveal.kind]}. ${it[visibleReveal.color]}. ${t('Scelta dalla squadra {0}', it[visibleReveal.team])}. ${revealOutcome}`}
+                    style={s.revealResult}
+                  >
+                    <View style={[s.revealSymbol, { backgroundColor: revealColor + '18' }]}>
+                      <Text style={[s.revealSymbolText, { color: revealColor }]}>
+                        {symbols[visibleReveal.color]}
+                      </Text>
+                    </View>
+                    <Text style={[s.tag, { color: revealColor, textAlign: 'center' }]}>
+                      {revealTitles[visibleReveal.kind]}
+                    </Text>
+                    <View style={[s.revealCard, { borderColor: revealColor }]}>
+                      <GradientFill from={revealColor + '30'} to="#22223A" />
+                      <Text style={s.revealWord}>
+                        {visibleReveal.word.toLocaleUpperCase(language)}
+                      </Text>
+                      <Text style={[s.tag, { color: revealColor }]}>{it[visibleReveal.color]}</Text>
+                    </View>
+                    <Text style={s.tiny}>
+                      {t('Scelta dalla squadra {0}', it[visibleReveal.team])}
+                    </Text>
+                    <Text style={[s.copy, { textAlign: 'center' }]}>{revealOutcome}</Text>
+                  </View>
+                  <Button title={t('Continua')} onPress={() => setRevealNotice(null)} />
+                </ScrollView>
+              </View>
             </View>
           )}
-        </KeyboardAvoidingView>
+        </Modal>
       </SafeAreaView>
     </MotionContext.Provider>
   );
 }
 const s = StyleSheet.create({
-  revealToast: {
-    position: 'absolute',
-    bottom: 16,
-    left: 20,
-    right: 20,
+  revealBackdrop: {
+    flex: 1,
+    backgroundColor: '#080812B8',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 24,
+  },
+  revealDialog: {
+    width: '100%',
+    maxWidth: 400,
+    maxHeight: '100%',
     backgroundColor: '#22223A',
     borderWidth: 2,
-    borderRadius: 18,
-    padding: 16,
-    gap: 5,
+    borderRadius: 28,
+    overflow: 'hidden',
     elevation: 10,
     shadowColor: '#000',
     shadowOpacity: 0.3,
     shadowRadius: 12,
     shadowOffset: { width: 0, height: 4 },
+  },
+  revealContent: { padding: 24, gap: 24 },
+  revealResult: { alignItems: 'center', gap: 16 },
+  revealSymbol: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  revealSymbolText: { fontSize: 32, fontFamily: 'SpaceGrotesk_700Bold' },
+  revealCard: {
+    width: '100%',
+    minHeight: 140,
+    padding: 20,
+    borderWidth: 1,
+    borderRadius: 18,
+    overflow: 'hidden',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 12,
+  },
+  revealWord: {
+    color: C.text,
+    fontFamily: 'SpaceGrotesk_700Bold',
+    fontSize: 30,
+    textAlign: 'center',
   },
   languageOption: {
     flexDirection: 'row',

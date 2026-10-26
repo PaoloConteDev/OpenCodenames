@@ -9,7 +9,7 @@ module.exports = {
     icon: './assets/icon.png',
     android: {
       package: 'org.opencodenames.app',
-      versionCode: 21,
+      versionCode: 22,
       allowBackup: false,
       adaptiveIcon: { foregroundImage: './assets/adaptive-icon.png', backgroundColor: '#101021' },
       permissions: ['android.permission.INTERNET', 'android.permission.ACCESS_NETWORK_STATE'],

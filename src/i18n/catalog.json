@@ -1200,6 +1200,19 @@
     "Vous pourrez revenir au salon et changer les rôles."
   ],
   "Continua a giocare": ["Keep playing", "Seguir jugando", "Weiterspielen", "Continuer à jouer"],
+  "Continua": ["Continue", "Continuar", "Weiter", "Continuer"],
+  "Turno concluso. Ora tocca alla squadra {0}.": [
+    "Turn over. It’s the {0} team’s turn.",
+    "Turno terminado. Le toca al equipo {0}.",
+    "Zug beendet. Jetzt ist Team {0} dran.",
+    "Tour terminé. C’est à l’équipe {0} de jouer."
+  ],
+  "Puoi continuare a scegliere oppure terminare il turno.": [
+    "You can keep guessing or end your turn.",
+    "Puedes seguir eligiendo o terminar el turno.",
+    "Du kannst weiter raten oder deinen Zug beenden.",
+    "Vous pouvez continuer à choisir ou terminer votre tour."
+  ],
   "Diagnostica · prova tecnica": [
     "Diagnostics · technical test",
     "Diagnóstico · prueba técnica",
